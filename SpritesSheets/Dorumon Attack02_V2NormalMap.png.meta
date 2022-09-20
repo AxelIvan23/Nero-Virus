@@ -1,0 +1,1271 @@
+fileFormatVersion: 2
+guid: 19b534e1222e4a848872966f05b568ec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4261122052681647734
+    second: Dorumon Attack02_V2NormalMap_0
+  - first:
+      213: -1832521796088143942
+    second: Dorumon Attack02_V2NormalMap_1
+  - first:
+      213: -501927752465948287
+    second: Dorumon Attack02_V2NormalMap_2
+  - first:
+      213: 2907738883679321588
+    second: Dorumon Attack02_V2NormalMap_3
+  - first:
+      213: 9219777255061633435
+    second: Dorumon Attack02_V2NormalMap_4
+  - first:
+      213: -6502437911037450471
+    second: Dorumon Attack02_V2NormalMap_5
+  - first:
+      213: 4364610063269447678
+    second: Dorumon Attack02_V2NormalMap_6
+  - first:
+      213: 5183417576892832333
+    second: Dorumon Attack02_V2NormalMap_7
+  - first:
+      213: 2921131663930390120
+    second: Dorumon Attack02_V2NormalMap_8
+  - first:
+      213: 9190109195330515123
+    second: Dorumon Attack02_V2NormalMap_9
+  - first:
+      213: -6950549595614387016
+    second: Dorumon Attack02_V2NormalMap_10
+  - first:
+      213: 1644638345041058184
+    second: Dorumon Attack02_V2NormalMap_11
+  - first:
+      213: -2446896826145185813
+    second: Dorumon Attack02_V2NormalMap_12
+  - first:
+      213: -838701313284761312
+    second: Dorumon Attack02_V2NormalMap_13
+  - first:
+      213: 1753712605923830129
+    second: Dorumon Attack02_V2NormalMap_14
+  - first:
+      213: 4437902642473889320
+    second: Dorumon Attack02_V2NormalMap_15
+  - first:
+      213: 854355958926052151
+    second: Dorumon Attack02_V2NormalMap_16
+  - first:
+      213: -3104665838731358496
+    second: Dorumon Attack02_V2NormalMap_17
+  - first:
+      213: 2175498129279175813
+    second: Dorumon Attack02_V2NormalMap_18
+  - first:
+      213: -7897412707072972448
+    second: Dorumon Attack02_V2NormalMap_19
+  - first:
+      213: 7701575323078197916
+    second: Dorumon Attack02_V2NormalMap_20
+  - first:
+      213: 3426562069890118730
+    second: Dorumon Attack02_V2NormalMap_21
+  - first:
+      213: -4747349329189313259
+    second: Dorumon Attack02_V2NormalMap_22
+  - first:
+      213: -708854909099437063
+    second: Dorumon Attack02_V2NormalMap_23
+  - first:
+      213: 7654169679558506411
+    second: Dorumon Attack02_V2NormalMap_24
+  - first:
+      213: 8335876381289382791
+    second: Dorumon Attack02_V2NormalMap_25
+  - first:
+      213: -6534736141867123412
+    second: Dorumon Attack02_V2NormalMap_26
+  - first:
+      213: -783226356155705648
+    second: Dorumon Attack02_V2NormalMap_27
+  - first:
+      213: -3749603331644474351
+    second: Dorumon Attack02_V2NormalMap_28
+  - first:
+      213: -5177122334761281452
+    second: Dorumon Attack02_V2NormalMap_29
+  - first:
+      213: 4396113422617854265
+    second: Dorumon Attack02_V2NormalMap_30
+  - first:
+      213: -2468027006888730130
+    second: Dorumon Attack02_V2NormalMap_31
+  - first:
+      213: -2861978056081138765
+    second: Dorumon Attack02_V2NormalMap_32
+  - first:
+      213: -7936758132767903107
+    second: Dorumon Attack02_V2NormalMap_33
+  - first:
+      213: 3781341239581418695
+    second: Dorumon Attack02_V2NormalMap_34
+  - first:
+      213: 3340157770335821099
+    second: Dorumon Attack02_V2NormalMap_35
+  - first:
+      213: -5542095485332708329
+    second: Dorumon Attack02_V2NormalMap_36
+  - first:
+      213: 8283564614004746159
+    second: Dorumon Attack02_V2NormalMap_37
+  - first:
+      213: 434683248513798138
+    second: Dorumon Attack02_V2NormalMap_38
+  - first:
+      213: -7912798586459369339
+    second: Dorumon Attack02_V2NormalMap_39
+  - first:
+      213: 4974157053526167711
+    second: Dorumon Attack02_V2NormalMap_40
+  - first:
+      213: 9212287647650215369
+    second: Dorumon Attack02_V2NormalMap_41
+  - first:
+      213: 69056933727956197
+    second: Dorumon Attack02_V2NormalMap_42
+  - first:
+      213: 4014415155403875608
+    second: Dorumon Attack02_V2NormalMap_43
+  - first:
+      213: 3184419638266449773
+    second: Dorumon Attack02_V2NormalMap_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89b359c1147dd4c0800000000000000
+      internalID: -4261122052681647734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf5105b2239196e0800000000000000
+      internalID: -1832521796088143942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1816b535e5bc809f0800000000000000
+      internalID: -501927752465948287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdfb4ddb1d5a5820800000000000000
+      internalID: 2907738883679321588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99bc24a09a33ff70800000000000000
+      internalID: 9219777255061633435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917649adb23b2c5a0800000000000000
+      internalID: -6502437911037450471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef745445ab5329c30800000000000000
+      internalID: 4364610063269447678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a9631c2d23fe740800000000000000
+      internalID: 5183417576892832333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86677b285c1f98820800000000000000
+      internalID: 2921131663930390120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0f9b23f93d98f70800000000000000
+      internalID: 9190109195330515123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_10
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b46ba7e7ffaa8f90800000000000000
+      internalID: -6950549595614387016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88998247cdde2d610800000000000000
+      internalID: 1644638345041058184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befd5930d40ea0ed0800000000000000
+      internalID: -2446896826145185813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029120569955c54f0800000000000000
+      internalID: -838701313284761312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179e632d250765810800000000000000
+      internalID: 1753712605923830129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_15
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e6c68b0f8969d30800000000000000
+      internalID: 4437902642473889320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_16
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b8683d7384bdb00800000000000000
+      internalID: 854355958926052151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee80207ed20ae4d0800000000000000
+      internalID: -3104665838731358496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c4635b50ce03e10800000000000000
+      internalID: 2175498129279175813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06962463cf0c66290800000000000000
+      internalID: -7897412707072972448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_20
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c928dfe93fd71ea60800000000000000
+      internalID: 7701575323078197916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44b0a04c089d8f20800000000000000
+      internalID: 3426562069890118730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5156bf800f60e1eb0800000000000000
+      internalID: -4747349329189313259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f316d14734a926f0800000000000000
+      internalID: -708854909099437063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_24
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba776a025c2193a60800000000000000
+      internalID: 7654169679558506411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7838256476bfea370800000000000000
+      internalID: 8335876381289382791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d7a1bf914ff45a0800000000000000
+      internalID: -6534736141867123412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d69d9e57cb6125f0800000000000000
+      internalID: -783226356155705648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cb5b8d2abb6fbc0800000000000000
+      internalID: -3749603331644474351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45810d58aaa2728b0800000000000000
+      internalID: -5177122334761281452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931c673cdd1220d30800000000000000
+      internalID: 4396113422617854265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_31
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1a35e638ecfbdd0800000000000000
+      internalID: -2468027006888730130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_32
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb12541f163848d0800000000000000
+      internalID: -2861978056081138765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_33
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d723d2c6788fad190800000000000000
+      internalID: -7936758132767903107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_34
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c429cfa2d50a7430800000000000000
+      internalID: 3781341239581418695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d90a29bcf9a5e20800000000000000
+      internalID: 3340157770335821099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_36
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714a275f4858613b0800000000000000
+      internalID: -5542095485332708329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7afb3d02225f270800000000000000
+      internalID: 8283564614004746159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_38
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff4a798c1e480600800000000000000
+      internalID: 434683248513798138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_39
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58050e20c97103290800000000000000
+      internalID: -7912798586459369339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_40
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f905e686c71c70540800000000000000
+      internalID: 4974157053526167711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5f8e68ece98df70800000000000000
+      internalID: 9212287647650215369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ece1245ae655f000800000000000000
+      internalID: 69056933727956197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815eac6805116b730800000000000000
+      internalID: 4014415155403875608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dorumon Attack02_V2NormalMap_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f46aa0ac4513c20800000000000000
+      internalID: 3184419638266449773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Dorumon Attack02_V2NormalMap_12: -2446896826145185813
+      Dorumon Attack02_V2NormalMap_7: 5183417576892832333
+      Dorumon Attack02_V2NormalMap_6: 4364610063269447678
+      Dorumon Attack02_V2NormalMap_21: 3426562069890118730
+      Dorumon Attack02_V2NormalMap_10: -6950549595614387016
+      Dorumon Attack02_V2NormalMap_16: 854355958926052151
+      Dorumon Attack02_V2NormalMap_1: -1832521796088143942
+      Dorumon Attack02_V2NormalMap_20: 7701575323078197916
+      Dorumon Attack02_V2NormalMap_9: 9190109195330515123
+      Dorumon Attack02_V2NormalMap_25: 8335876381289382791
+      Dorumon Attack02_V2NormalMap_27: -783226356155705648
+      Dorumon Attack02_V2NormalMap_39: -7912798586459369339
+      Dorumon Attack02_V2NormalMap_26: -6534736141867123412
+      Dorumon Attack02_V2NormalMap_38: 434683248513798138
+      Dorumon Attack02_V2NormalMap_29: -5177122334761281452
+      Dorumon Attack02_V2NormalMap_5: -6502437911037450471
+      Dorumon Attack02_V2NormalMap_15: 4437902642473889320
+      Dorumon Attack02_V2NormalMap_35: 3340157770335821099
+      Dorumon Attack02_V2NormalMap_13: -838701313284761312
+      Dorumon Attack02_V2NormalMap_36: -5542095485332708329
+      Dorumon Attack02_V2NormalMap_42: 69056933727956197
+      Dorumon Attack02_V2NormalMap_23: -708854909099437063
+      Dorumon Attack02_V2NormalMap_4: 9219777255061633435
+      Dorumon Attack02_V2NormalMap_33: -7936758132767903107
+      Dorumon Attack02_V2NormalMap_37: 8283564614004746159
+      Dorumon Attack02_V2NormalMap_8: 2921131663930390120
+      Dorumon Attack02_V2NormalMap_44: 3184419638266449773
+      Dorumon Attack02_V2NormalMap_3: 2907738883679321588
+      Dorumon Attack02_V2NormalMap_22: -4747349329189313259
+      Dorumon Attack02_V2NormalMap_19: -7897412707072972448
+      Dorumon Attack02_V2NormalMap_17: -3104665838731358496
+      Dorumon Attack02_V2NormalMap_32: -2861978056081138765
+      Dorumon Attack02_V2NormalMap_14: 1753712605923830129
+      Dorumon Attack02_V2NormalMap_30: 4396113422617854265
+      Dorumon Attack02_V2NormalMap_31: -2468027006888730130
+      Dorumon Attack02_V2NormalMap_0: -4261122052681647734
+      Dorumon Attack02_V2NormalMap_34: 3781341239581418695
+      Dorumon Attack02_V2NormalMap_11: 1644638345041058184
+      Dorumon Attack02_V2NormalMap_43: 4014415155403875608
+      Dorumon Attack02_V2NormalMap_40: 4974157053526167711
+      Dorumon Attack02_V2NormalMap_28: -3749603331644474351
+      Dorumon Attack02_V2NormalMap_18: 2175498129279175813
+      Dorumon Attack02_V2NormalMap_41: 9212287647650215369
+      Dorumon Attack02_V2NormalMap_2: -501927752465948287
+      Dorumon Attack02_V2NormalMap_24: 7654169679558506411
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
