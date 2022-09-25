@@ -5,45 +5,29 @@ using UnityEngine;
 public class PlayerMov : MonoBehaviour
 {
 	private int dir = 0;
-	private float vel;
-	private int conversation=0;
+	public int vel;
+	//private int conversation=0;
 	private Animator anim;
-	private SpriteRenderer renderer;
-	[SerializeField]
-	private GameObject notification;
-	[SerializeField]
-	private GameObject camera;
-	[SerializeField]
-	private DialogSystem dialogSystem;
+    private Rigidbody2D body;
+	//private DialogSystem dialogSystem;
     // Start is called before the first frame update
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
-        renderer = gameObject.GetComponent<SpriteRenderer>();
-        vel = Screen.width / 700000.0f;
+        body = gameObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-    	dir=0;
-        if (Input.GetKey(KeyCode.UpArrow)) {
-        	dir=dir+1;
-        	gameObject.transform.position = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y + vel);
-        }
-        if (Input.GetKey(KeyCode.RightArrow)) {
-        	dir=dir+2;
-        	gameObject.transform.position = new Vector2(gameObject.transform.position.x + vel, gameObject.transform.position.y);
-        }
-        if (Input.GetKey(KeyCode.DownArrow)) {
-        	dir=dir+4;
-        	gameObject.transform.position = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y - vel);
-        }
-        if (Input.GetKey(KeyCode.LeftArrow)) {
-        	dir=dir+7;
-        	gameObject.transform.position = new Vector2(gameObject.transform.position.x - vel, gameObject.transform.position.y);
-        }
-        switch(dir) {
+        Vector2 velocity = new Vector2(Input.GetAxis("Horizontal")*vel,0); 
+        Debug.Log(Input.GetAxis("Horizontal"));
+            //body.AddForce(transform.right * vel);
+        body.MovePosition(body.position + velocity * Time.fixedDeltaTime);
+        	//gameObject.transform.position = new Vector2(gameObject.transform.position.x + vel, gameObject.transform.position.y);
+        	//body.AddForce(transform.right * -vel);
+            //gameObject.transform.position = new Vector2(gameObject.transform.position.x - vel, gameObject.transform.position.y);
+        /*switch(dir) {
         	case 1: anim.SetInteger("state",1); renderer.flipX = false; break;
         	case 2: anim.SetInteger("state",2); renderer.flipX = true; break;
         	case 3: anim.SetInteger("state",3); renderer.flipX = true; break;
@@ -59,10 +43,10 @@ public class PlayerMov : MonoBehaviour
 	        	dialogSystem.enabled = true;
 	        	dialogSystem.StartConversation(conversation-1);
         	}
-        }
+        }*/
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    /*void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Shop") {
         	notification.SetActive(true);
@@ -73,13 +57,13 @@ public class PlayerMov : MonoBehaviour
         	conversation=2;
         }
         if (other.tag == "Finish") {
-        	camera.transform.position = new Vector3(-2.15f,-16.93f,-10);
+        	GetComponent<Camera>().transform.position = new Vector3(-2.15f,-16.93f,-10);
         	gameObject.transform.position = new Vector3(-2.22f,-16.71f,0);
-        	camera.transform.parent = gameObject.transform;
+        	GetComponent<Camera>().transform.parent = gameObject.transform;
         }
         if (other.tag == "Player") {
-        	camera.transform.parent = null;
-        	camera.transform.position = new Vector3(0,0,-10);
+        	GetComponent<Camera>().transform.parent = null;
+        	GetComponent<Camera>().transform.position = new Vector3(0,0,-10);
         	gameObject.transform.position = new Vector3(-4.55f,-3.63f,0);
         }
     }
@@ -87,6 +71,6 @@ public class PlayerMov : MonoBehaviour
     {
     	conversation=0;
     	notification.SetActive(false);
-    }
+    }*/
 
 }

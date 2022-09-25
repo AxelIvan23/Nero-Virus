@@ -162,7 +162,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -243,6 +243,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1205,8 +1217,8 @@ TextureImporter:
       Mountains-forest_42: -8472990480547934889
       Mountains-forest_22: 5767230490555167460
       Mountains-forest_7: 7512784306319240992
-      Mountains-forest_14: 8191081491476362938
       Mountains-forest_35: 572006844870113868
+      Mountains-forest_14: 8191081491476362938
       Mountains-forest_30: 3120106867862303764
       Mountains-forest_13: 4192637111285980683
       Mountains-forest_31: -8626313771031011578
