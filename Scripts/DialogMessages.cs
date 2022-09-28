@@ -6,6 +6,7 @@ public class DialogMessages : ScriptableObject
 	[System.Serializable]
 	public struct MessageData {
 		public string message;
+		public string name;
 		public Sprite emotion;
 		public string[] decision;
 	}
