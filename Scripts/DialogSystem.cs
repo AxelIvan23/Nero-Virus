@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogSystem : MonoBehaviour
 {
@@ -18,13 +19,11 @@ public class DialogSystem : MonoBehaviour
 	[SerializeField]
 	private Image ChatImage;
 	[SerializeField]
-	private Text ChatText;
+	private TextMeshProUGUI ChatText;
 	[SerializeField]
 	private GameObject DecisionsPanel;
 	[SerializeField]
 	private Text[] ChatDecisions;
-	[SerializeField]
-	private Text[] StorePanel;
 	[SerializeField]
 	private GameObject Player;
 	//[SerializeField]

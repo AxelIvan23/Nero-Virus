@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelRunGenerator : MonoBehaviour
+[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/LevelObject", order = 1)]
+public class LevelRunGenerator : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+	[System.Serializable]
+	public struct MessageData {
+		public string messages;
+		public Sprite emotion;
+		public string[] decision;
+	}
+	[SerializeField]
+    public MessageData[] messages;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void startLevel() {
+    	
     }
 }

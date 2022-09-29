@@ -9,7 +9,8 @@ public class PlayerMov : MonoBehaviour
 	//private int conversation=0;
 	private Animator anim;
     private Rigidbody2D body;
-	//private DialogSystem dialogSystem;
+    [SerializeField]
+	private DialogSystem dialogSystem;
     // Start is called before the first frame update
     void Start()
     {

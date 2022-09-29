@@ -1,0 +1,7670 @@
+fileFormatVersion: 2
+guid: 2ae8172111082054695edadaaf83a51a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: magic effects 2_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 983
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f019de65f4a9cd41a5b6799f7985129
+      internalID: -424592107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 983
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c97a1087ab24e489c567c7f5205c04
+      internalID: -896957023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 981
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90f79e387c56374ab37e9aeae83cedb
+      internalID: 1774744012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 981
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3bf354f78003b4bb3c5c7420d4fe5d
+      internalID: -250808836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 981
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b99f720109268a4fbb1fa13b58f39b0
+      internalID: -1600068136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 981
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764c3ce0857e6c447b71cebadd0a05e3
+      internalID: -1720228051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 981
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0ccfb92e8d57544af0161bc16bfb2c
+      internalID: 1318749310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 942
+        width: 40
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e47018662550c64aa1407fb3afae315
+      internalID: -55849058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_8
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 993
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf683758022c4184ea23744ca9f77b43
+      internalID: -441211005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_9
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 997
+        width: 4
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb1bad51f8ab0048b927c7f15632a47
+      internalID: -802473210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_10
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 939
+        width: 39
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4ae03ed88ab8446a2091067c5bc2d9
+      internalID: 1725506858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_11
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 997
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0823c52e202654ba384072ee8c6e15
+      internalID: -1361079632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_12
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 998
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff2cfdafc9bb5b44a30c44333487a0f
+      internalID: -1635603564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_13
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 967
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1270bc26572e174bbf24ec95e80aa5e
+      internalID: -1256915674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_14
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 969
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6c2aacb237baf4f8fcdd8146bbfaa5
+      internalID: 1287109622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_15
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 960
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579f94295cd53c4428d509f0a398a272
+      internalID: -451056300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_16
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 960
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0e9b5eed6c0f145956ffb34350a3d2
+      internalID: -1033659326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_17
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1002
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396967aea45d0a4499130b0dd9e8d212
+      internalID: 1945284637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_18
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1007
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdde271d54158f8449bb223f454136bd
+      internalID: -558295082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_19
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1010
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bae2f1bfce9294da02707cfdc5731b
+      internalID: -367918797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 983
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9606daa181a0ec2499078499bc4ec79d
+      internalID: 66886267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_21
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 981
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c8726369f33684b8fb2c9b326512e6
+      internalID: -2097719387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_22
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 941
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2000ad6c4cad0b4387000faa9f70c76
+      internalID: -1376815570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_23
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 993
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2555ae404c8735429429f3fede9595b
+      internalID: -1478627902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_24
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 976
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b404b4211e98df046a49f9b2285514a8
+      internalID: -77176270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 977
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a52c0ea55a1234aaa146ace609f649
+      internalID: 1209064322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_26
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 938
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9f33e135c07264591cf93e7dbff91f
+      internalID: 444711386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_27
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 985
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418d286d1edbd4540ac13ec62558daed
+      internalID: 1684015199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_28
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 979
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478464a5f07db7846b77445c02b0775f
+      internalID: 1235798181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_29
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 975
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2860bdd11a35614bb9715ee17b2a4c6
+      internalID: -1095387443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_30
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 971
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73595e03469b99a45a50c86d7c83de5b
+      internalID: -37696951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_31
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 995
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60232d4267250e48852d0a70333dd5a
+      internalID: 614262988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_32
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 974
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465fd41ca4c9f8c48bc101d46140d951
+      internalID: -13854608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_33
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 954
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5110c94547fd689438aa6334c13751c4
+      internalID: 736634150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_34
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 978
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afb6ca9aba0c044787fa6a9fa865a9b
+      internalID: -1843099031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_35
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 979
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa5305d23c352942a296a2865412cb6
+      internalID: 655727279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_36
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 979
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4d85fb3896a5b4cb776cf44a4bf5e9
+      internalID: 809472273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_37
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 979
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ee493023558634eba121204ac235c7
+      internalID: -1736155299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_38
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 979
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a5b5823ccc5594fb256566336dc0fe
+      internalID: -1104961999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_39
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 939
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e540fe0d0654384fa956d5671486504
+      internalID: 925636341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_40
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 939
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eab233ba343b4e4a93b823a1e31c9f0
+      internalID: 1941219133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_41
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 963
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b7392d943631c4cabac323edfe45fc
+      internalID: 1855145115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_42
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 956
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6637499c8384fa247b20075fbdf3338b
+      internalID: 1318606030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_43
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 951
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15867f3f04baeae419a6239b9d4df927
+      internalID: 1799674065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_44
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 935
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197f8c307937c7948be86ad014f90d3b
+      internalID: -1558671757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_45
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 936
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efab843bf77ae7f4aa8df413be5b0b56
+      internalID: 1950845512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_46
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 938
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb08bd3413fdbba4c8f40f4211adca5f
+      internalID: 968474531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_47
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 935
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62bd8cccbb25734dbff53c1cf83a6d3
+      internalID: 546872687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_48
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 935
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d7018a9247569459b0ce3076388177
+      internalID: -794916900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_49
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 935
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5b6206fe6688d47b59a4ffecaebef4
+      internalID: 1266116255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_50
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 935
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a334f112607c240805df497b817f47
+      internalID: -264321657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_51
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 935
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5537ff3062daf344ba9cc27dae34a7f0
+      internalID: -1229644598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_52
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 935
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea2b1c8b4075ea41b3e1a65f455bb15
+      internalID: -915799994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_53
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 948
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f16dd100596684893e6542b3adebdf
+      internalID: -101549642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_54
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 894
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcd5801ebb57324fb560736c3a28704
+      internalID: -1420848997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_55
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 894
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6d169d5cdede641873bdbf4a0cc15d
+      internalID: 50397041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_56
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 894
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91856674a0a2efa489c321ed5bd7d5e9
+      internalID: 359237866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_57
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 897
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07974ebca579cf04e8dc1d2c3e0f6693
+      internalID: 1518888351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_58
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 897
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfdf984013df7046b3dad584c91e425
+      internalID: -246240645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_59
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 897
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60f074fb8784944e8367d4a52fb1f37
+      internalID: -367954588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_60
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 909
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcaff265b575124aa4a5296cd52b680
+      internalID: 1284211581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_61
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 911
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9652878991a664287dadaa3cca09a7
+      internalID: -1127286185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_62
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 908
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0e7f5d2b5ee654f9c468a47f7f42dd
+      internalID: 244480349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_63
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 854
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b5d5064a6d4e3498eeeb58ff76f327
+      internalID: -1486217965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_64
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 854
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf17ee2f17b29e45b816f51ab507bce
+      internalID: -100232053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_65
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 878
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170569f9fe61de84d8cafaeaf7fe2af8
+      internalID: -1489742588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_66
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 889
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d260c4ceae9244ea05edd195c73dc1
+      internalID: 2067645802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_67
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 857
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b2a86df93aa954ebd303b4fa378fdc
+      internalID: -274569765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_68
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 857
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210acb716c40ab846b2fcb9702850e40
+      internalID: 828886818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_69
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 857
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a00d965ee32ec74db3d99bec5063e59
+      internalID: -933278258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_70
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 857
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eae42c158b78546a4491ad4d2fd5ee
+      internalID: -989831439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_71
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 884
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b39e112aff935a478b4ffb77ac46b56
+      internalID: 1127265679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_72
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 883
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf5f502e022d854f9fb311f041ff64d
+      internalID: 1802408731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_73
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 880
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f525ac954bfaa46908100248cd2fe1
+      internalID: 2022627333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_74
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 894
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93edcda514c658c4f8b10a1697bd7732
+      internalID: -1640725402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_75
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 878
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c703fdb790ffc48a88b712872607e6
+      internalID: -1728190469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_76
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 889
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83743eeea499feb4ea91b106dd345f42
+      internalID: -1380547287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_77
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 889
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ddedad02aeb404a8fb39bc11d56ea2
+      internalID: 1092964880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_78
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 889
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655516be737ffba4eb151ed880b3cccb
+      internalID: -348122905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_79
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 888
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6f1acd09154824b977a162d4db3c3b
+      internalID: 1915796221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_80
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 884
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13db4c25f94ba244fb65eadbd9ac6fd4
+      internalID: -1931124068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_81
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 883
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6685cd0f6373fc4438eaa69428e2efee
+      internalID: 288670589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_82
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 857
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e8cb4cd0cdf9145a21a2ad3a1bcd09
+      internalID: -534731763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_83
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 856
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c1f4968e52e194b802b59b59ca5f06
+      internalID: 543416667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_84
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 884
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e067f96b0fe4c42ad843c56beea4a0
+      internalID: -1821997872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_85
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 884
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56594bafe91ae3489cd9b4444e73b0a
+      internalID: -1596452662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_86
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 884
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75c95a5470bbd541a8f00454895830b
+      internalID: -17328437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_87
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 870
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0a405f7e1ca134c9a86d615298eb20
+      internalID: -548945452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_88
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 870
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b0dc0dbf8f7ce47942218991de2841
+      internalID: -995987819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_89
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 870
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d3a66b887464441b42e3cce398fdce
+      internalID: -120533780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_90
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 870
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645ffe0d5a1ee3949bbeb9830a36d3d5
+      internalID: 1094049982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_91
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 880
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb7e3f3305a5404187f6e4dfd0647f0
+      internalID: 572749548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_92
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 879
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52768863510bcf4d9b9ac9679407e2a
+      internalID: 212731876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_93
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 879
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4818c8e0a725f84391e238575724a11
+      internalID: 1974732729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_94
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 880
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae97517f6019cd54199bb6f50ec7039c
+      internalID: -2074660575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_95
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 870
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492b1d3fa2f070c4da3a5d86d938791e
+      internalID: -1965770974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_96
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 870
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a060bf9776dadd2409f9c192c3dba005
+      internalID: -470871231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_97
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 870
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e08a2858977a743822751c2836fc93
+      internalID: -716625536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_98
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 871
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a82159cf757bdf4ebfd691e3393dc45
+      internalID: -1930334590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_99
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 870
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b7785d18f37a24f8a15f22abee9b7f
+      internalID: -986866866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_100
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 865
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fb33fe61590dd4f9333871fbd10a7b
+      internalID: -351325959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_101
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 867
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd579da06abab3a4198838343db591cb
+      internalID: 867210532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_102
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 852
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f086384241823d42bbd530f88f5d91d
+      internalID: -1214097027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_103
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 852
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cb7b0894fc47c4da5ce0fa1bd2ece2
+      internalID: 1603450347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_104
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 865
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c8cf5a93bb680488a26c65517fd454
+      internalID: 1920102649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_105
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 866
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada37d3bbf9e06b4bb9278f8e1956ac7
+      internalID: 354126088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_106
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 867
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c80230403c9764eb3a594cc8aa352a
+      internalID: -2113083959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_107
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 816
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89aa907ff44736e4b9caafb3853d976c
+      internalID: 35492872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_108
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 815
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affac1d82a77b6241abfa7c1ac77dd5f
+      internalID: -653389065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_109
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 867
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89864a6c51b39a4f81447bf22cf5111
+      internalID: -1141141471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_110
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 830
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6f6eabb0403da41a6a29ced6f233d8
+      internalID: 149594679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_111
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 832
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d030d60f7a95c4bbc5a2aa08b85d2d
+      internalID: 1038609210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_112
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 832
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9499655ec3e9c48a362d783492f373
+      internalID: 657107967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_113
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 832
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dea24ccd6ecd494586106880728b389
+      internalID: 1445948607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_114
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 831
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03bd7d4abd2fe0488f40acb7afec05d
+      internalID: 957588617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_115
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 831
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdca2ac87f6fc140bc9713d70e22831
+      internalID: -1903287274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_116
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 831
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7b31161f0a6a84c8ea75012df1b7e4
+      internalID: -1535246842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_117
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 831
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d716fbd3d752ab4eaced1bf5d791696
+      internalID: -1488311579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_118
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 831
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e85c45980153314b9dcb59ca7f36eaa
+      internalID: 1514654216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_119
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 854
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c6e00401f7e3c44bfc0eca3f38057f
+      internalID: -728943367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_120
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 857
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824ceff1806c3b24b9b454d214e9f190
+      internalID: 667962654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_121
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 857
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ac7ff19df5fa141ab681ca5ab39da3
+      internalID: 1086342201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_122
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 850
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2714b8b9f94a1a44097a525ec5c033e5
+      internalID: -203830383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_123
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 850
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c4c2bad918c164ebf9673b64c58c0d
+      internalID: 1191181555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_124
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 857
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8896140f001be8b4e967066aa39a2599
+      internalID: 991753572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_125
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 850
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6e346a1dd2c974b95edfa1e3d6deff
+      internalID: -1217091177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_126
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 857
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73499b4fc88ddc40ba34c1ced96a964
+      internalID: 1618529288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_127
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 857
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cb476c65680be48a4aaa62d250742f
+      internalID: 1345164351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_128
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 850
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39404a9f9853a9e478f90e3df98aeeff
+      internalID: 733445746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_129
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 857
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40b24f13d50d3340910749461e42e8c
+      internalID: 701336353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_130
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 843
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7bb62a5dc7bda408cdb735b7eb12d4
+      internalID: -789117199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_131
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 852
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04207800918f714b9830999db362398
+      internalID: -621247487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_132
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 843
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a48b1c15601d9e45be48ef54ccb03be
+      internalID: 305889900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_133
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 852
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93d5475dd5ca2f4a8b4d7f6d745ca96
+      internalID: 1623708845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_134
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 852
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335f7aaab5d7f9146aacde7334fd1d9a
+      internalID: 396586609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_135
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 843
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a454fb4f99a75204dbb5cf922ebdaa2e
+      internalID: -2136712232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_136
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 852
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe108f1ec2712f47a1026cdcbda34c6
+      internalID: 858447584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_137
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 850
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678c62449ebcc1047804b75cbf862f49
+      internalID: 659800263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_138
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 850
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f96e59d91cadc41b85511f7db8676a
+      internalID: 1032894415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_139
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 850
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490852405f5e1f04988adb14d7e623fd
+      internalID: -71492519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_140
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 727
+        width: 42
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9698738e29ac924980733d245b113e6
+      internalID: -394266962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_141
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 731
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5ba61709c939a49819eaf17119d098
+      internalID: 1769046362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_142
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 736
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e10df8ad1ce89449997ca594c552e0
+      internalID: 1471058163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_143
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 738
+        width: 60
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1368fa2b53e44dc408b940afc3510cfc
+      internalID: -1803787340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_144
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 731
+        width: 61
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082c40ceb4622f14ebe22c81aecebca1
+      internalID: -411668009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_145
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 736
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f44b699f6020274b98ab7c1fc78af66
+      internalID: 1671570557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_146
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 735
+        width: 61
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4164ffdf6f89b84a8ca8f0fa3120517
+      internalID: 1495994648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_147
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 736
+        width: 59
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bee1338cf4f71845a0f973345c913ef
+      internalID: 2100995292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_148
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 743
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84449d25ec7b09e4c89e5241ba46765b
+      internalID: 563900049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_149
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 803
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa15225aa797d464893f5b7036c3d597
+      internalID: 450787418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_150
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 805
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfd97237e5a1334694e6cc3882e7ac2
+      internalID: 1795424093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_151
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 811
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c326a3517e214da4e83e9bc85e90d370
+      internalID: 1750178568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_152
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 808
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf827b367d91f84e82259882a013a09
+      internalID: 527863522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_153
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 756
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66879531a203724e8f5ea300d17ab61
+      internalID: -1478141871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_154
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 746
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd237e8261e60a42ba76a6c522d0d5a
+      internalID: 540536613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_155
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 748
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b538c8105301345bb97394cdedd0de
+      internalID: -1052981773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_156
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 749
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ba2dbbce863d946a07d394c4f385dd
+      internalID: -2073942249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_157
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 749
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9296755ed8d082647b8bd0c7c3d9fcc9
+      internalID: 1074436863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_158
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 749
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446c2f2aa47a2a74892c36c4a6302724
+      internalID: -180440116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_159
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 749
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ee56cb7bf3bb144a370ebc568d495f
+      internalID: -1597260267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_160
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 751
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9e1a2e51ce4564b89e0ddaf72b66d9
+      internalID: -1921232941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_161
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 751
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db2fd7dd1dae6f4ea55fc67e886da09
+      internalID: 1908304984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_162
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 751
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459dc4fa033607548a36380067a1fd0b
+      internalID: 2117522346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_163
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 751
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2318a566f712624c97a920286c9b32d
+      internalID: -126956735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_164
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 751
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb7c2ae2c7c95f429cd8bad52108734
+      internalID: 688568821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_165
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 737
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d898aed5924fc9b40b6cf5f8fb658ff7
+      internalID: -826103857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_166
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 736
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a252bc86c09364d890785445efd9c2
+      internalID: 1992951384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_167
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 736
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e9904cbf26f654bad11637c3065483
+      internalID: 1671197342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_168
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 738
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28275b2ebbc37984ebfd20d6c66fad66
+      internalID: 643231387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_169
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 668
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4799596cb4bd54d88ecf0147def69a
+      internalID: 1893341876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_170
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 687
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f504e09dc3d19f64fb8bbc47113c0e00
+      internalID: 322830589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_171
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 674
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3192e975cc60b1f439803466253be633
+      internalID: -643849426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_172
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 668
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10947cc3bd79034d92386b56d605aa3
+      internalID: 1597347430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_173
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 674
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35275fe450b88441a3e4469c866cb1b
+      internalID: 373976841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_174
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 687
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdd3487793a27d44ab72a4af0bb834f
+      internalID: -101312575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_175
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 668
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c577dffc46a0946ad72cedb0daab13
+      internalID: -1580600781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_176
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 674
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2404eb0f56c6bb94ba0df5fe1193d93b
+      internalID: -1551678167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_177
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 666
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace88443ad5abb74d84c8669ead530cc
+      internalID: -1881998689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_178
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 668
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b06049904740c84eb685c0cb42c964a
+      internalID: 911448300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_179
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 669
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e9b60887906ed48b74596aab37fcc1
+      internalID: 1500346552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_180
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 665
+        width: 84
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15984e553cf549242bd67d83f7bed533
+      internalID: -687696485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_181
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 651
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f67db8abb4e56439a1ea19aa7e97bb
+      internalID: -290247746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_182
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 654
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872e11a7556192549bbb9d287c364e90
+      internalID: -376559785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_183
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 652
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271d022608b4d994dab6f90e7a32da39
+      internalID: 394819716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_184
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 651
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4d6b61358c9a84b92bdf9b8ea2f88b
+      internalID: 1470895631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_185
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 618
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89b6f5746be0524ba816682b9433a82
+      internalID: -245851754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_186
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 617
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3ceb07e752fd942afb972c09eea80b
+      internalID: -1451845223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_187
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 643
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf72de005684c74f9c778a8e84f0b23
+      internalID: -1655030174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_188
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 642
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f283fccf29ae14a8f24a597d94344a
+      internalID: 386592753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_189
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 601
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fe0fb499b05e84081eafa27c95892f
+      internalID: -875352978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_190
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 584
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15b6a519e6445b49a37c14cea708236
+      internalID: -1523165839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_191
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 584
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64cbb9becc51f14e812a9a0013e8f46
+      internalID: 1082781399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_192
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 584
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f2918f635dd2a44a3e5a94c24ad002
+      internalID: -99645446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_193
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 584
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec108dcb6f052f42a5b0b1d91ed0c4b
+      internalID: 44449642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_194
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 584
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6111a7a808a7b5842b45be66ff644ea8
+      internalID: -1154230309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_195
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 585
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e75e5b4788e484086cc9789ecf9191
+      internalID: 300250054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_196
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 585
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4055f0a1775fbba438ced98d61cd0f18
+      internalID: -2084218878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_197
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 586
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c86e49ff543ec45a05b357c262522b
+      internalID: 433827349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_198
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 640
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d6925df43933541b0811dc163896cf
+      internalID: -463596750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_199
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 640
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbbd7547dd50fb4a90dd24f57a7f9e1
+      internalID: 2081568250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_200
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 584
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6432473a8b9a67549a559a8993971ee4
+      internalID: -1468257646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_201
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 626
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da995e168e5bee4e8afc0b13bf0abee
+      internalID: -321355315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_202
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 631
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4692a8d5eced74cb223a31039279a7
+      internalID: -360580087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_203
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 626
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa1057b0afd631418f776aa34a6eda3
+      internalID: 906136627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_204
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 616
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93cbeb20ead69944ab3da0525811a98
+      internalID: -1585997430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_205
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 616
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc9e6faa86d63649b9a7e544835183e
+      internalID: -53433969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_206
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 575
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7633049e2e5f66346ac65e466a56f0dd
+      internalID: 967479393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_207
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 575
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d5da875920a864591267d62c690e10
+      internalID: 1012264558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_208
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 539
+        width: 120
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8c7a35345343448bca4916d3783b2f
+      internalID: -1813225548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_209
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 539
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2568fbeaa2523ff4e9f2d4e92980f19e
+      internalID: 1301526676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_210
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 554
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d473f100f53f37478b39c40c4e863d5
+      internalID: 952954961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_211
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 601
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b447e1c2298b2b4880d37a68d29d2cc
+      internalID: 842021419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_212
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 573
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0503a56120ebb4da4d3aab4af035dc
+      internalID: -779826372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_213
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 575
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081b41b7b614e744b8abff62fff57420
+      internalID: -1274334613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_214
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 596
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f8d973887367243acf8c5f9194f2a7
+      internalID: -2121181969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_215
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 584
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675c262b433cca848b92a1bf65d862fd
+      internalID: -1742525724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_216
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 590
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985ac01c9cfd7ba42862f19674976b8f
+      internalID: -369252879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_217
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 586
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b935555b65af83246acc2f39642df866
+      internalID: -363245327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_218
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 585
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c0ef921dad1f740952a25b6fc21264
+      internalID: -1390250291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_219
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 585
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf154bfd31cc954abf31e134a074c8d
+      internalID: -1739025748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_220
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 583
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e90a1a31df204241902f2dda3765e69
+      internalID: -808018621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_221
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 540
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a11f255939c434596718bbcb6d8bf5
+      internalID: 1319163381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_222
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 588
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77501e94b7f6dc4aa3716fdfc5212ec
+      internalID: -2078335525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_223
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 531
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc84c71e354f8e04ab9a69bc8fa953a1
+      internalID: 747334054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_224
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 541
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22ec20f991ba8f4faefab3911a4eeac
+      internalID: 503828002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_225
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 568
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5757dc37508bbe4b8a1be808f518178
+      internalID: -1856523317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_226
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 558
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f207d25b217cda40a6198f76260f7af
+      internalID: -142950187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_227
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 537
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3be3bc1be2d544d893384b150b1b17
+      internalID: 321532870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_228
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 528
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35540c2e071abc4ba7f7aba4701fbcd
+      internalID: -1633781809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_229
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 517
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8fe18d5d1c3b1499419eabcaf07e62
+      internalID: -290961278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_230
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 529
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b890c9f6bea9884493b2ab615c471c9
+      internalID: -527255703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_231
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 517
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46e59d67c1901444ac0c2668864d053
+      internalID: 1576351543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_232
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 530
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a259045fed527914da9dcf344ff67a48
+      internalID: 1614008729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_233
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 541
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0837de92c48ef34297645bd681b2813
+      internalID: 1251041068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_234
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 541
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69b87da1b05ce54895456d3c05462b3
+      internalID: 1757462895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_235
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 540
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92cbafed99f91d4b8588b53fbf69cdc
+      internalID: -1410938495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_236
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 518
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83590f388ebf294b82f09e097bf8579
+      internalID: 143967664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_237
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 537
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4eed238c5b4c34a9318cde7c91d662
+      internalID: -867963166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_238
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 489
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e30b0c3dc5b5d446b0a157d2302808b
+      internalID: -882166207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_239
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 490
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ed94165e92bab4d97c29318840459b
+      internalID: -1074645409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_240
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 489
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea34266583b377546a8ed48a3b121b31
+      internalID: -699802301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_241
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 489
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862746165df38354b8fdf9b2fdd8becd
+      internalID: -1480871275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_242
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 521
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775daf37a2af6bb4083e717c24c4886b
+      internalID: -1029042037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_243
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 489
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071139894f712f741aa518bb065721aa
+      internalID: 1978029873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_244
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 522
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51b41d6cbd4f0c4fa2979cb64d890b8
+      internalID: 211172415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_245
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 489
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e540633f016fbe4a83cbeffea9291f5
+      internalID: 1636488691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_246
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 490
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3491525922403604e9af56893b9addea
+      internalID: -1759494496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_247
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 529
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8b769b9ccdff640b144daeb9169101
+      internalID: -1681815521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_248
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 531
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae7ff58a2776824ab1fdc7ab80ad9f5
+      internalID: 782528673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_249
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 517
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d66cd5dcd46a574398081b2bb2482ee
+      internalID: -755991858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_250
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 524
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b07fb3892feb4749911063189c906a4
+      internalID: 748279065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_251
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 514
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4470822d27466f4db942af7c886089e
+      internalID: -2138401782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_252
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 536
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ebbf52c644c0443a415fcaed9d3711
+      internalID: 1786698469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_253
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 530
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234bc9bc2af23ec4287d5271b690713c
+      internalID: -542899095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_254
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 523
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07196f90295f6fe4e87441981cb904d1
+      internalID: 1129032549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_255
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 513
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09babb5f445b9914183ec17db585a628
+      internalID: 1484095258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_256
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 522
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453d5187ebd1c5745a2c46d663b6935e
+      internalID: -156049507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_257
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 521
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef4259a038550140930d7584acb9421
+      internalID: -1725036350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_258
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 490
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5556cb558dc93b74d9c678182cf791a2
+      internalID: -1823479414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_259
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 512
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe4c52867e78164489a505d1ae224ea
+      internalID: 382021940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_260
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 515
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41df575e6d46e2d4daa64d6ff34e4543
+      internalID: -1972482588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_261
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 517
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a8de78b2493df418836dcda16c0f31
+      internalID: 879104114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_262
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 506
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288d0b7621457d24aa9fc8ae78a7f069
+      internalID: 358662877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_263
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 488
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1603cc78b0d9598448f176f22f432e10
+      internalID: -440748720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_264
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 505
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbf3c2d2e6b80042b595047a17625d9
+      internalID: 457574031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_265
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 489
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6a1960d9de1094c84d78a50d7486f2
+      internalID: -161486075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_266
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 503
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b35c158d7001d46b42cc23b13356bc
+      internalID: -1081914082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_267
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 490
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76cae92496130c46989e590613a1178
+      internalID: -554633249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_268
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 489
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af554fb1b2bb0e4e86f36657699abe5
+      internalID: -142923659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_269
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 490
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5db2510407c7fe4d9abccc4329e7d4b
+      internalID: 1747536761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_270
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 490
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e9cbfee652c024883b6a42e4bec3db
+      internalID: 1455481795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_271
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 405
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a99c66fb68214941b1c8d57ffd973c6
+      internalID: -1940527668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_272
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 481
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849b98fa176968047b4b6343a0da256a
+      internalID: 1931083392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_273
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 482
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df76a92a95e652d47944b8aa3cdba111
+      internalID: 1157181160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_274
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 405
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4b941e9175df94cad294f628b01dec
+      internalID: -1586614105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_275
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 481
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6a7ee4e23c5184fb0a92486fe2e575
+      internalID: -730535913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_276
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 484
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2296abe0612244b83da9e1d102375d
+      internalID: 209805501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_277
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 405
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efce1a0d09c41f44e8b1c28425a5e66a
+      internalID: 1230571490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_278
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 476
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ec5f1d6e1ddf84ab8ed0a6aadc3395
+      internalID: 1639421308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_279
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 405
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ca39cba4cff2b429561014424d8f75
+      internalID: 1778860800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_280
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 476
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c5ae3b04660d747877adbe1539a302
+      internalID: 1288773505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_281
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 405
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f98a9afc31fc643b46161842446f3a
+      internalID: -871231887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_282
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 405
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5366aef18a4910e46a7534d6f8faba6f
+      internalID: -2003934840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_283
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 405
+        width: 83
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21373622c738de439a5022205496233
+      internalID: -904857055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_284
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 363
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9b2d0de08068847bdd2f029001966a
+      internalID: -1429466866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_285
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 362
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900be0730745b874fb99f9e4cf6e0fc3
+      internalID: 1075731738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_286
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 400
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb866bb245c222458fa5b8d2c5a9043
+      internalID: -804343414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_287
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 365
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb128e49ab71264e8899073ea1872a2
+      internalID: 1699581144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_288
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 394
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b011e317a984eef4d922a42215d5be59
+      internalID: -176834227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_289
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 369
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a01ef73c7fa1a7408f17646b3fe239b
+      internalID: 1111049561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_290
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 414
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c2a17025f462142b4709b3c8a63687
+      internalID: 531253696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_291
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 365
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e87340545d4a3144bb43b4a667a8429
+      internalID: 1757746870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_292
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 361
+        width: 125
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd719dd8fcaf954790d30014775fbe8
+      internalID: -1976005171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_293
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 303
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc46be056673b2547a7972a9115e1a7c
+      internalID: 1203073887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_294
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 303
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b04f00190e6dee4fab5068faf3e6046
+      internalID: 396954351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_295
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 344
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbee34adfb5bbc47b372d98dfac64ca
+      internalID: -1204789219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_296
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 378
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad59c1a2ccdcb94faafd6b101f13809
+      internalID: -749368339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_297
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 303
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4498cfd2e8605814eb8dc7b8045f0ce0
+      internalID: -1541067556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_298
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 356
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567401abcc4faf54a9e92d59a1da33f0
+      internalID: -58772243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_299
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 303
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d055ae37463c3cd48acf78c98f76d743
+      internalID: -197584971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_300
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 362
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5aaca65e81f9d4ea1748a5a0bd3eff
+      internalID: 2094269158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_301
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 362
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0a5ddf0e109134180eeea59f097606
+      internalID: 413304384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_302
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 363
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711102dea33136044936cdd482a8143d
+      internalID: -594993379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_303
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 303
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b439bfcf48107439fc25145dbf9f4d
+      internalID: -1817181137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_304
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 77
+        width: 90
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23024076a4b5374a966c6beb7fef4de
+      internalID: 1277823193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_305
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 129
+        width: 40
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fbf1a989249834a818c4367360e5a1
+      internalID: -1876476004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_306
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 76
+        width: 78
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b376847212f7f74aba026eaafc7f6e1
+      internalID: 1801835872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_307
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 76
+        width: 60
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaa4abfbb726884b91f0161733c9328
+      internalID: 940416865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_308
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 76
+        width: 56
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f1b2401f47756438b7cc0eb962347b
+      internalID: 29383761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_309
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 95
+        width: 39
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb65fae267ff4b468d6d756e938554f
+      internalID: 376221042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_310
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 279
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53594db96dca4c444a8623389f0fbb04
+      internalID: -396987542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_311
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 235
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f55995aaa9db6c4cb12084418dabb35
+      internalID: -435402343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_312
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 234
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095739aa1df0ff34f9022e4a11d09c34
+      internalID: -1597936517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_313
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 221
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec8d48e2b120004699e03173b69c7bb
+      internalID: -1519160240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_314
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 209
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaca8b6f248d49408fdd63a241a567b
+      internalID: -160036175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_315
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 202
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b336feb609623ba4e927f2ac7b4ee5a8
+      internalID: 98600494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_316
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 182
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c9552ac29601c4ebaee50845a4524a
+      internalID: 367514070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_317
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 251
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d09606f9546434582e28ba6047bd36
+      internalID: 2075707629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_318
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 228
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ea8523d44db964fb1840e6087beccf
+      internalID: 2047097757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_319
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 224
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103cfc1528d136a47b780fab1fb3c120
+      internalID: 1760003733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_320
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 208
+        width: 37
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83f395e548b36e4d9af3fc9a775e1ed
+      internalID: 1698896151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_321
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 218
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7420cc536fa07e943ab5ae815d0fb70f
+      internalID: -363881481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_322
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 231
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489d9f086ab88ca4cb67f61958470129
+      internalID: 1101582555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_323
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 214
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcc16859e6f148478d80cc8ce7662c0
+      internalID: -1535992609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_324
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 209
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d187bc8f550d7f4a9cee919b737198e
+      internalID: -254124294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_325
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 209
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488ea35c347fb3541a5e6d800d383a4b
+      internalID: -1459319438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_326
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 201
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f33e130cc240c43bc7260826724785
+      internalID: -2040378788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_327
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 211
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b929d1c2d4333d84399037a7917b5c24
+      internalID: 1390761916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_328
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c878a71e248f334d98595a36ceb5a35
+      internalID: -633726316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_329
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 197
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1483538667ea1438b7995d93983e07
+      internalID: 223889833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_330
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 94
+        width: 207
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41f3f1078c6e5a419a4640417dadeec
+      internalID: -616100793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_331
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 87
+        width: 84
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2981f89540a3e404bbb7773be1f576f9
+      internalID: 1589190103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_332
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 146
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adcf1cc0f7bc2240bd208225dac8dd0
+      internalID: -1531419300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_333
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 115
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5f97110c3b8ab40ad2f5b53634e0d1
+      internalID: -192204187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_334
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 112
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06a9dd741ea5f74bbeb43853da363dd
+      internalID: -869391260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_335
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 95
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f5feefc03a6fe49942ccbe7284135e
+      internalID: -1388197670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_336
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 115
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63abb12ac548ba4cb622cd2777d95fe
+      internalID: 2126363629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_337
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 77
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942f56ab5d1e51c44a6de258e7df6ffd
+      internalID: 776819594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_338
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 60
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61efab1a9746a2841b3cae7f23622add
+      internalID: -328654416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_339
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 64
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5071be725c5474a9531ab175e33878
+      internalID: 1930787834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_340
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 3
+        width: 103
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0351fe250dc8ed4ea39215489a5db98
+      internalID: -578294984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magic effects 2_341
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 103
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67657bca8986d4e4ab679f9bf686e4e1
+      internalID: -1139951125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      magic effects 2_137: 659800263
+      magic effects 2_30: -37696951
+      magic effects 2_224: 503828002
+      magic effects 2_151: 1750178568
+      magic effects 2_218: -1390250291
+      magic effects 2_290: 531253696
+      magic effects 2_165: -826103857
+      magic effects 2_42: 1318606030
+      magic effects 2_116: -1535246842
+      magic effects 2_66: 2067645802
+      magic effects 2_211: 842021419
+      magic effects 2_75: -1728190469
+      magic effects 2_149: 450787418
+      magic effects 2_178: 911448300
+      magic effects 2_285: 1075731738
+      magic effects 2_322: 1101582555
+      magic effects 2_59: -367954588
+      magic effects 2_17: 1945284637
+      magic effects 2_95: -1965770974
+      magic effects 2_296: -749368339
+      magic effects 2_83: 543416667
+      magic effects 2_316: 367514070
+      magic effects 2_298: -58772243
+      magic effects 2_31: 614262988
+      magic effects 2_160: -1921232941
+      magic effects 2_308: 29383761
+      magic effects 2_320: 1698896151
+      magic effects 2_37: -1736155299
+      magic effects 2_277: 1230571490
+      magic effects 2_261: 879104114
+      magic effects 2_215: -1742525724
+      magic effects 2_82: -534731763
+      magic effects 2_271: -1940527668
+      magic effects 2_11: -1361079632
+      magic effects 2_236: 143967664
+      magic effects 2_111: 1038609210
+      magic effects 2_77: 1092964880
+      magic effects 2_196: -2084218878
+      magic effects 2_64: -100232053
+      magic effects 2_249: -755991858
+      magic effects 2_119: -728943367
+      magic effects 2_150: 1795424093
+      magic effects 2_241: -1480871275
+      magic effects 2_176: -1551678167
+      magic effects 2_192: -99645446
+      magic effects 2_58: -246240645
+      magic effects 2_234: 1757462895
+      magic effects 2_29: -1095387443
+      magic effects 2_243: 1978029873
+      magic effects 2_231: 1576351543
+      magic effects 2_63: -1486217965
+      magic effects 2_327: 1390761916
+      magic effects 2_47: 546872687
+      magic effects 2_108: -653389065
+      magic effects 2_265: -161486075
+      magic effects 2_333: -192204187
+      magic effects 2_288: -176834227
+      magic effects 2_22: -1376815570
+      magic effects 2_156: -2073942249
+      magic effects 2_299: -197584971
+      magic effects 2_80: -1931124068
+      magic effects 2_248: 782528673
+      magic effects 2_222: -2078335525
+      magic effects 2_180: -687696485
+      magic effects 2_223: 747334054
+      magic effects 2_99: -986866866
+      magic effects 2_110: 149594679
+      magic effects 2_51: -1229644598
+      magic effects 2_46: 968474531
+      magic effects 2_250: 748279065
+      magic effects 2_329: 223889833
+      magic effects 2_253: -542899095
+      magic effects 2_70: -989831439
+      magic effects 2_62: 244480349
+      magic effects 2_164: 688568821
+      magic effects 2_303: -1817181137
+      magic effects 2_61: -1127286185
+      magic effects 2_313: -1519160240
+      magic effects 2_287: 1699581144
+      magic effects 2_41: 1855145115
+      magic effects 2_34: -1843099031
+      magic effects 2_332: -1531419300
+      magic effects 2_213: -1274334613
+      magic effects 2_138: 1032894415
+      magic effects 2_310: -396987542
+      magic effects 2_227: 321532870
+      magic effects 2_25: 1209064322
+      magic effects 2_255: 1484095258
+      magic effects 2_145: 1671570557
+      magic effects 2_225: -1856523317
+      magic effects 2_212: -779826372
+      magic effects 2_100: -351325959
+      magic effects 2_98: -1930334590
+      magic effects 2_230: -527255703
+      magic effects 2_24: -77176270
+      magic effects 2_309: 376221042
+      magic effects 2_53: -101549642
+      magic effects 2_86: -17328437
+      magic effects 2_292: -1976005171
+      magic effects 2_295: -1204789219
+      magic effects 2_155: -1052981773
+      magic effects 2_216: -369252879
+      magic effects 2_13: -1256915674
+      magic effects 2_182: -376559785
+      magic effects 2_301: 413304384
+      magic effects 2_128: 733445746
+      magic effects 2_118: 1514654216
+      magic effects 2_306: 1801835872
+      magic effects 2_162: 2117522346
+      magic effects 2_175: -1580600781
+      magic effects 2_195: 300250054
+      magic effects 2_56: 359237866
+      magic effects 2_127: 1345164351
+      magic effects 2_294: 396954351
+      magic effects 2_283: -904857055
+      magic effects 2_9: -802473210
+      magic effects 2_191: 1082781399
+      magic effects 2_334: -869391260
+      magic effects 2_106: -2113083959
+      magic effects 2_307: 940416865
+      magic effects 2_126: 1618529288
+      magic effects 2_5: -1720228051
+      magic effects 2_325: -1459319438
+      magic effects 2_141: 1769046362
+      magic effects 2_54: -1420848997
+      magic effects 2_286: -804343414
+      magic effects 2_67: -274569765
+      magic effects 2_242: -1029042037
+      magic effects 2_6: 1318749310
+      magic effects 2_94: -2074660575
+      magic effects 2_272: 1931083392
+      magic effects 2_2: 1774744012
+      magic effects 2_109: -1141141471
+      magic effects 2_232: 1614008729
+      magic effects 2_101: 867210532
+      magic effects 2_131: -621247487
+      magic effects 2_233: 1251041068
+      magic effects 2_254: 1129032549
+      magic effects 2_144: -411668009
+      magic effects 2_326: -2040378788
+      magic effects 2_312: -1597936517
+      magic effects 2_247: -1681815521
+      magic effects 2_190: -1523165839
+      magic effects 2_229: -290961278
+      magic effects 2_315: 98600494
+      magic effects 2_280: 1288773505
+      magic effects 2_256: -156049507
+      magic effects 2_117: -1488311579
+      magic effects 2_142: 1471058163
+      magic effects 2_258: -1823479414
+      magic effects 2_10: 1725506858
+      magic effects 2_237: -867963166
+      magic effects 2_282: -2003934840
+      magic effects 2_102: -1214097027
+      magic effects 2_16: -1033659326
+      magic effects 2_105: 354126088
+      magic effects 2_168: 643231387
+      magic effects 2_96: -470871231
+      magic effects 2_113: 1445948607
+      magic effects 2_297: -1541067556
+      magic effects 2_74: -1640725402
+      magic effects 2_203: 906136627
+      magic effects 2_289: 1111049561
+      magic effects 2_18: -558295082
+      magic effects 2_15: -451056300
+      magic effects 2_228: -1633781809
+      magic effects 2_133: 1623708845
+      magic effects 2_60: 1284211581
+      magic effects 2_177: -1881998689
+      magic effects 2_199: 2081568250
+      magic effects 2_341: -1139951125
+      magic effects 2_170: 322830589
+      magic effects 2_4: -1600068136
+      magic effects 2_183: 394819716
+      magic effects 2_78: -348122905
+      magic effects 2_112: 657107967
+      magic effects 2_197: 433827349
+      magic effects 2_85: -1596452662
+      magic effects 2_139: -71492519
+      magic effects 2_205: -53433969
+      magic effects 2_198: -463596750
+      magic effects 2_71: 1127265679
+      magic effects 2_340: -578294984
+      magic effects 2_65: -1489742588
+      magic effects 2_274: -1586614105
+      magic effects 2_323: -1535992609
+      magic effects 2_114: 957588617
+      magic effects 2_76: -1380547287
+      magic effects 2_276: 209805501
+      magic effects 2_73: 2022627333
+      magic effects 2_163: -126956735
+      magic effects 2_40: 1941219133
+      magic effects 2_104: 1920102649
+      magic effects 2_45: 1950845512
+      magic effects 2_146: 1495994648
+      magic effects 2_166: 1992951384
+      magic effects 2_19: -367918797
+      magic effects 2_38: -1104961999
+      magic effects 2_251: -2138401782
+      magic effects 2_57: 1518888351
+      magic effects 2_39: 925636341
+      magic effects 2_107: 35492872
+      magic effects 2_208: -1813225548
+      magic effects 2_235: -1410938495
+      magic effects 2_93: 1974732729
+      magic effects 2_115: -1903287274
+      magic effects 2_317: 2075707629
+      magic effects 2_23: -1478627902
+      magic effects 2_124: 991753572
+      magic effects 2_90: 1094049982
+      magic effects 2_140: -394266962
+      magic effects 2_291: 1757746870
+      magic effects 2_81: 288670589
+      magic effects 2_97: -716625536
+      magic effects 2_48: -794916900
+      magic effects 2_52: -915799994
+      magic effects 2_189: -875352978
+      magic effects 2_194: -1154230309
+      magic effects 2_12: -1635603564
+      magic effects 2_27: 1684015199
+      magic effects 2_188: 386592753
+      magic effects 2_181: -290247746
+      magic effects 2_267: -554633249
+      magic effects 2_269: 1747536761
+      magic effects 2_174: -101312575
+      magic effects 2_266: -1081914082
+      magic effects 2_134: 396586609
+      magic effects 2_259: 382021940
+      magic effects 2_304: 1277823193
+      magic effects 2_217: -363245327
+      magic effects 2_245: 1636488691
+      magic effects 2_331: 1589190103
+      magic effects 2_219: -1739025748
+      magic effects 2_88: -995987819
+      magic effects 2_147: 2100995292
+      magic effects 2_239: -1074645409
+      magic effects 2_336: 2126363629
+      magic effects 2_158: -180440116
+      magic effects 2_284: -1429466866
+      magic effects 2_238: -882166207
+      magic effects 2_122: -203830383
+      magic effects 2_300: 2094269158
+      magic effects 2_337: 776819594
+      magic effects 2_79: 1915796221
+      magic effects 2_246: -1759494496
+      magic effects 2_20: 66886267
+      magic effects 2_21: -2097719387
+      magic effects 2_200: -1468257646
+      magic effects 2_202: -360580087
+      magic effects 2_132: 305889900
+      magic effects 2_143: -1803787340
+      magic effects 2_167: 1671197342
+      magic effects 2_335: -1388197670
+      magic effects 2_169: 1893341876
+      magic effects 2_121: 1086342201
+      magic effects 2_314: -160036175
+      magic effects 2_32: -13854608
+      magic effects 2_35: 655727279
+      magic effects 2_3: -250808836
+      magic effects 2_72: 1802408731
+      magic effects 2_33: 736634150
+      magic effects 2_125: -1217091177
+      magic effects 2_278: 1639421308
+      magic effects 2_68: 828886818
+      magic effects 2_92: 212731876
+      magic effects 2_89: -120533780
+      magic effects 2_152: 527863522
+      magic effects 2_260: -1972482588
+      magic effects 2_210: 952954961
+      magic effects 2_91: 572749548
+      magic effects 2_157: 1074436863
+      magic effects 2_207: 1012264558
+      magic effects 2_43: 1799674065
+      magic effects 2_214: -2121181969
+      magic effects 2_220: -808018621
+      magic effects 2_173: 373976841
+      magic effects 2_28: 1235798181
+      magic effects 2_184: 1470895631
+      magic effects 2_84: -1821997872
+      magic effects 2_240: -699802301
+      magic effects 2_7: -55849058
+      magic effects 2_321: -363881481
+      magic effects 2_338: -328654416
+      magic effects 2_204: -1585997430
+      magic effects 2_275: -730535913
+      magic effects 2_36: 809472273
+      magic effects 2_262: 358662877
+      magic effects 2_311: -435402343
+      magic effects 2_324: -254124294
+      magic effects 2_120: 667962654
+      magic effects 2_129: 701336353
+      magic effects 2_206: 967479393
+      magic effects 2_49: 1266116255
+      magic effects 2_0: -424592107
+      magic effects 2_135: -2136712232
+      magic effects 2_26: 444711386
+      magic effects 2_257: -1725036350
+      magic effects 2_264: 457574031
+      magic effects 2_263: -440748720
+      magic effects 2_328: -633726316
+      magic effects 2_293: 1203073887
+      magic effects 2_87: -548945452
+      magic effects 2_209: 1301526676
+      magic effects 2_153: -1478141871
+      magic effects 2_339: 1930787834
+      magic effects 2_221: 1319163381
+      magic effects 2_279: 1778860800
+      magic effects 2_201: -321355315
+      magic effects 2_281: -871231887
+      magic effects 2_103: 1603450347
+      magic effects 2_159: -1597260267
+      magic effects 2_319: 1760003733
+      magic effects 2_186: -1451845223
+      magic effects 2_226: -142950187
+      magic effects 2_148: 563900049
+      magic effects 2_179: 1500346552
+      magic effects 2_1: -896957023
+      magic effects 2_14: 1287109622
+      magic effects 2_172: 1597347430
+      magic effects 2_268: -142923659
+      magic effects 2_318: 2047097757
+      magic effects 2_161: 1908304984
+      magic effects 2_185: -245851754
+      magic effects 2_305: -1876476004
+      magic effects 2_193: 44449642
+      magic effects 2_330: -616100793
+      magic effects 2_69: -933278258
+      magic effects 2_244: 211172415
+      magic effects 2_123: 1191181555
+      magic effects 2_50: -264321657
+      magic effects 2_154: 540536613
+      magic effects 2_8: -441211005
+      magic effects 2_136: 858447584
+      magic effects 2_252: 1786698469
+      magic effects 2_55: 50397041
+      magic effects 2_270: 1455481795
+      magic effects 2_130: -789117199
+      magic effects 2_44: -1558671757
+      magic effects 2_187: -1655030174
+      magic effects 2_302: -594993379
+      magic effects 2_273: 1157181160
+      magic effects 2_171: -643849426
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
