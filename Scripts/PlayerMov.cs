@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlayerMov : MonoBehaviour
 {
 	private int dir = 0;
-	public int vel;
+	public float vel;
+    public bool canJump = true;
 	//private int conversation=0;
 	private Animator anim;
     private Rigidbody2D body;
@@ -19,12 +20,17 @@ public class PlayerMov : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         Vector2 velocity = new Vector2(Input.GetAxis("Horizontal")*vel,0); 
-        Debug.Log(Input.GetAxis("Horizontal"));
             //body.AddForce(transform.right * vel);
-        body.MovePosition(body.position + velocity * Time.fixedDeltaTime);
+        gameObject.transform.position = new Vector3(gameObject.transform.position.x+(velocity.x*Time.deltaTime),gameObject.transform.position.y,0);
+        if (Input.GetKeyDown ("space") && canJump==true){
+            //transform.Translate(Vector3.up * 2.6f * Time.deltaTime, Space.World);
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(velocity.x/1.8f, 2.8f), ForceMode2D.Impulse);
+            canJump=false;
+        }
+        //body.MovePosition(body.position + velocity * Time.fixedDeltaTime);
         	//gameObject.transform.position = new Vector2(gameObject.transform.position.x + vel, gameObject.transform.position.y);
         	//body.AddForce(transform.right * -vel);
             //gameObject.transform.position = new Vector2(gameObject.transform.position.x - vel, gameObject.transform.position.y);
@@ -45,6 +51,10 @@ public class PlayerMov : MonoBehaviour
 	        	dialogSystem.StartConversation(conversation-1);
         	}
         }*/
+    }
+
+    private void OnCollisionEnter2D(Collision2D col) {
+        canJump=true;
     }
 
     /*void OnTriggerEnter2D(Collider2D other)
@@ -75,3 +85,4 @@ public class PlayerMov : MonoBehaviour
     }*/
 
 }
+

@@ -4,13 +4,14 @@ using UnityEngine;
 public class LevelRunGenerator : ScriptableObject
 {
 	[System.Serializable]
-	public struct MessageData {
-		public string messages;
-		public Sprite emotion;
-		public string[] decision;
+	public struct LevelData {
+		public GameObject prefabLevel;
+		public bool loop;
+		public float atPosition;
+		public Vector2 size;
 	}
 	[SerializeField]
-    public MessageData[] messages;
+    public LevelData[] prefabs;
 
     public void startLevel() {
     	
