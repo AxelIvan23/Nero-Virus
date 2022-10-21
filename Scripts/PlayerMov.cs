@@ -6,13 +6,22 @@ public class PlayerMov : MonoBehaviour
 {
 	private int dir = 0;
 	public float vel;
+    public int attackType;
+
     public bool canJump = true;
+    public bool canBeHit = true;
+    public bool canAttack = true;
 	//private int conversation=0;
     private int state=0;
 	private Animator anim;
     private Rigidbody2D body;
+    private float hp;
+    public int attack=0;
+
     [SerializeField]
 	private DialogSystem dialogSystem;
+    [SerializeField]
+    private ManagerData data;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,9 +38,16 @@ public class PlayerMov : MonoBehaviour
         if (Input.GetKeyDown ("space") && canJump==true){
             anim.SetInteger("State",2);
             //transform.Translate(Vector3.up * 2.6f * Time.deltaTime, Space.World);
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(velocity.x/1.8f, 2.8f), ForceMode2D.Impulse);
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(velocity.x/1.8f, 2.2f), ForceMode2D.Impulse);
             canJump=false;
              //gameObject.GetComponent<Renderer>().flipX = false;
+        }
+        if (Input.GetButtonDown ("Attack") && canAttack==true) {
+            attack++;
+            anim.SetInteger("Attack",attack);
+            if (attack>2) {
+                canAttack=false;
+            }
         }
         /*if (Input.GetKeyDown(KeyCode.Space)) {
         	if (conversation>0) {
@@ -51,23 +67,42 @@ public class PlayerMov : MonoBehaviour
         canJump=true;
     }
 
-    /*void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Daño") {
+        /*if (other.tag == "Daño") {
         	notification.SetActive(true);
         	conversation=1;
-        }
-        if (other.tag == "Player") {
-        	GetComponent<Camera>().transform.parent = null;
-        	GetComponent<Camera>().transform.position = new Vector3(0,0,-10);
-        	gameObject.transform.position = new Vector3(-4.55f,-3.63f,0);
+        }*/
+        if (other.tag == "Hit" && canBeHit==true) {
+            canBeHit=false;
+        	data.data.HP=data.data.HP-0.5f;
+            if (data.data.HP==0)
+                gameOver();
+            else
+                StartCoroutine(coolDown((result)=>{canBeHit=result;},1.5f));
         }
     }
     void OnTriggerExit2D(Collider2D other)
     {
-    	conversation=0;
-    	notification.SetActive(false);
-    }*/
+    	//conversation=0;
+    	//notification.SetActive(false);
+    }
 
+    public IEnumerator coolDown(System.Action<bool> callback, float time) {
+        yield return new WaitForSeconds(time);
+        if (callback != null) callback(true);
+    }
+
+    private void gameOver() {
+
+    }
+
+    public void resetAttack(int num) {
+        if (attack==num) {
+            attack=0;
+            anim.SetInteger("Attack",attack);
+            StartCoroutine(coolDown((result)=>{canAttack=result;},0.6f));
+        }
+    }
 }
 

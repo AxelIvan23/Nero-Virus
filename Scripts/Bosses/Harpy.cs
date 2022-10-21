@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Harpy : MonoBehaviour
 {
@@ -11,16 +13,27 @@ public class Harpy : MonoBehaviour
 	private float timeVulnerable;
 	[SerializeField]
 	private GameObject bombs;
+    [SerializeField]
+    private TextMeshProUGUI enemyName;
+    [SerializeField]
+    private Image HpBar;
 	private int animation;
 	private float startTime; 
+    private float sizeX; 
 	private AnimationClip[] clips;
+    private bool canBeHit = true;
 	public bool canAttack = true;
+    public float EnemyHp;
+    private float hp;
     // Start is called before the first frame update
     void Start()
     {
     	anim = gameObject.transform.GetComponent<Animator>();
         startTime = Time.time;
         clips = anim.runtimeAnimatorController.animationClips;
+        enemyName.name = "Moon Harpy";
+        sizeX=HpBar.GetComponent<RectTransform>().sizeDelta.x;
+        hp = EnemyHp;
     }
 
     // Update is called once per frame
@@ -90,5 +103,26 @@ public class Harpy : MonoBehaviour
     	anim.SetInteger("State",0);
     	yield return new WaitForSeconds(clips[4].length);
     	enableAttack();
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Hit" && canBeHit==true) {
+            canBeHit=false;
+            hp=hp-0.5f;
+            float porcentaje = hp / EnemyHp;
+            HpBar.GetComponent<RectTransform>().sizeDelta = new Vector2(sizeX*porcentaje,HpBar.GetComponent<RectTransform>().sizeDelta.y);
+            if (hp<=0) {
+                //win();
+                hp=0;
+            }
+            else
+                StartCoroutine(coolDown((result)=>{canBeHit=result;},0.2f));
+        }
+    }
+
+    public IEnumerator coolDown(System.Action<bool> callback, float time) {
+        yield return new WaitForSeconds(time);
+        if (callback != null) callback(true);
     }
 }
