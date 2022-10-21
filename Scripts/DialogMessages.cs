@@ -7,7 +7,7 @@ public class DialogMessages : ScriptableObject
 	public struct MessageData {
 		public string message;
 		public string name;
-		public Sprite emotion;
+		public AudioClip sound;
 		public string[] decision;
 	}
 	[SerializeField]

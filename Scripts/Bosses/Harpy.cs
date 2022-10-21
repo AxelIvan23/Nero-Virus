@@ -109,7 +109,7 @@ public class Harpy : MonoBehaviour
     {
         if (other.tag == "Hit" && canBeHit==true) {
             canBeHit=false;
-            hp=hp-0.5f;
+            hp=hp-1f;
             float porcentaje = hp / EnemyHp;
             HpBar.GetComponent<RectTransform>().sizeDelta = new Vector2(sizeX*porcentaje,HpBar.GetComponent<RectTransform>().sizeDelta.y);
             if (hp<=0) {

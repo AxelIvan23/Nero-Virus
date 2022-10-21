@@ -9,8 +9,13 @@ public class SystemController : MonoBehaviour
 	private int mode;
 	private float playerHP;
 	private float playerMP;
+    [SerializeField]
+    private AudioClip[] audioClipArray;
 	[SerializeField]
 	private LevelRunGenerator level;
+    [SerializeField]
+    private DialogSystem dialogSystem;
+
 	public void modeConversation() {
 		mode=2;
 	}
@@ -19,14 +24,16 @@ public class SystemController : MonoBehaviour
 		mode=0;
 	}
 
-	public void modeRunner() {
+	public void modeRunner(int clip) {
 		mode=1;
 		position=level.prefabs[0].atPosition;
+        gameObject.GetComponent<AudioSource>().PlayOneShot(audioClipArray[clip]);
+        StartCoroutine("temp");
 	}
     // Start is called before the first frame update
     void Start()
     {
-        modeRunner();
+        modeRunner(0);
     }
 
     // Update is called once per frame
@@ -44,5 +51,10 @@ public class SystemController : MonoBehaviour
         		}
         	}
         }
+    }
+
+    public IEnumerator temp() {
+        yield return new WaitForSeconds(1.5f);
+        gameObject.GetComponent<AudioSource>().volume = 1.0f;
     }
 }
