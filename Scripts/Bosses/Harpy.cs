@@ -46,7 +46,7 @@ public class Harpy : MonoBehaviour
     }
 
     public void Attack(int attack, int direction) {
-    	attack=1;
+    	//attack=1;
     	Debug.Log(direction);
     	gameObject.transform.parent.rotation = Quaternion.Euler(0,90*(1+direction),0);
     	switch (attack) {

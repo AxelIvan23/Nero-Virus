@@ -7,6 +7,7 @@ public class SystemController : MonoBehaviour
 	private int countLevelPart=0;
 	private float position;
 	private int mode;
+    private int dialogNum;
 	private float playerHP;
 	private float playerMP;
     [SerializeField]
@@ -16,8 +17,10 @@ public class SystemController : MonoBehaviour
     [SerializeField]
     private DialogSystem dialogSystem;
 
-	public void modeConversation() {
+	public void modeConversation(int clip, int conversation) {
 		mode=2;
+        dialogSystem.StartConversation(conversation);
+        gameObject.GetComponent<AudioSource>().PlayOneShot(audioClipArray[clip]);
 	}
 
 	public void modeGame() {
@@ -33,7 +36,7 @@ public class SystemController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        modeRunner(0);
+        modeConversation(0,0);
     }
 
     // Update is called once per frame

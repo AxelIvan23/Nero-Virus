@@ -16,6 +16,8 @@ public class DialogSystem : MonoBehaviour
 
 	[SerializeField]
 	private GameObject ChatPanel;
+    [SerializeField]
+    private GameObject LifePanel;
 	[SerializeField]
 	private TextMeshProUGUI ChatName;
 	[SerializeField]
@@ -33,6 +35,7 @@ public class DialogSystem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space)) {
     		Num++;
+            data.data.dialogNum=Num;
     		Dialog(Num);
         }
     }
@@ -50,12 +53,14 @@ public class DialogSystem : MonoBehaviour
     	if (conversation < Dialogs[ConversationNum].messages.Length) {
 	    	//ChatImage.sprite = Dialogs[ConversationNum].messages[conversation].emotion;
 	    	ChatText.text = Dialogs[ConversationNum].messages[conversation].message;
+            ChatName.text = Dialogs[ConversationNum].messages[conversation].name;
 	    } else {
 	    	EndConversation();
 	    }
     }
     public void EndConversation() {
     	ChatPanel.SetActive(false);
+        LifePanel.SetActive(true);
     	Player.GetComponent<PlayerMov>().enabled = true;
     	gameObject.GetComponent<DialogSystem>().enabled = false;
     }
