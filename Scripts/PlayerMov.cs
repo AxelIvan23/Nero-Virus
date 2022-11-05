@@ -19,8 +19,6 @@ public class PlayerMov : MonoBehaviour
     public int attack=0;
 
     [SerializeField]
-	private DialogSystem dialogSystem;
-    [SerializeField]
     private ManagerData data;
     // Start is called before the first frame update
     void Start()
@@ -35,7 +33,7 @@ public class PlayerMov : MonoBehaviour
         Vector2 velocity = new Vector2(Input.GetAxis("Horizontal")*vel,0); 
         //body.AddForce(transform.right * vel);
         gameObject.transform.position = new Vector3(gameObject.transform.position.x+(velocity.x*Time.deltaTime),gameObject.transform.position.y,0);
-        if (Input.GetKeyDown ("space") && canJump==true){
+        if (Input.GetKeyDown ("space") && canJump==true ){
             anim.SetInteger("State",2);
             //transform.Translate(Vector3.up * 2.6f * Time.deltaTime, Space.World);
             GetComponent<Rigidbody2D>().AddForce(new Vector2(velocity.x/1.8f, 2.2f), ForceMode2D.Impulse);
@@ -49,30 +47,30 @@ public class PlayerMov : MonoBehaviour
                 canAttack=false;
             }
         }
-        /*if (Input.GetKeyDown(KeyCode.Space)) {
-        	if (conversation>0) {
-	        	dialogSystem.enabled = true;
-	        	dialogSystem.StartConversation(conversation-1);
-        	}
-        }*/
     }
 
-    public void setState(){
-        anim.SetInteger("State",0);
+    public void setState(string paramss){
+        string[] param = paramss.Split(',');
+        state=0;
+        anim.SetInteger(param[0],state);
     }
 
     private void OnCollisionEnter2D(Collision2D col) {
-        if (canJump!=true) 
+        if (col.gameObject.CompareTag("Ground")) {
+            canJump=true;
             anim.SetInteger("State",3);
-        canJump=true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D col) {
+        if (col.gameObject.CompareTag("Ground")) {
+            canJump=false;
+        }
+        
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        /*if (other.tag == "Daño") {
-        	notification.SetActive(true);
-        	conversation=1;
-        }*/
         if (other.tag == "Hit" && canBeHit==true) {
             canBeHit=false;
         	data.data.HP=data.data.HP-0.5f;

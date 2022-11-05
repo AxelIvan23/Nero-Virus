@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -7423,11 +7423,11 @@ TextureImporter:
       magic effects 2_155: -1052981773
       magic effects 2_216: -369252879
       magic effects 2_13: -1256915674
-      magic effects 2_182: -376559785
       magic effects 2_301: 413304384
+      magic effects 2_182: -376559785
+      magic effects 2_306: 1801835872
       magic effects 2_128: 733445746
       magic effects 2_118: 1514654216
-      magic effects 2_306: 1801835872
       magic effects 2_162: 2117522346
       magic effects 2_175: -1580600781
       magic effects 2_195: 300250054

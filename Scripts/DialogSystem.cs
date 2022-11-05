@@ -28,6 +28,8 @@ public class DialogSystem : MonoBehaviour
 	private GameObject Player;
     [SerializeField]
     private ManagerData data;
+    [SerializeField]
+    private GameObject[] enableObjects;
 	//[SerializeField]
 	//private ChangeClothes ClothesSystem;
     // Update is called once per frame
@@ -59,9 +61,12 @@ public class DialogSystem : MonoBehaviour
 	    }
     }
     public void EndConversation() {
-    	ChatPanel.SetActive(false);
+        ChatPanel.SetActive(false);
         LifePanel.SetActive(true);
     	Player.GetComponent<PlayerMov>().enabled = true;
     	gameObject.GetComponent<DialogSystem>().enabled = false;
+        for (int i=0; i<enableObjects.Length; i++) {
+            enableObjects[i].SetActive(true);
+        }
     }
 }

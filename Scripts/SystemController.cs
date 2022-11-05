@@ -10,12 +10,17 @@ public class SystemController : MonoBehaviour
     private int dialogNum;
 	private float playerHP;
 	private float playerMP;
+
+    [SerializeField]
+    private GameObject levelContainer;
     [SerializeField]
     private AudioClip[] audioClipArray;
 	[SerializeField]
 	private LevelRunGenerator level;
     [SerializeField]
     private DialogSystem dialogSystem;
+    [SerializeField]
+    private ManagerData data;
 
 	public void modeConversation(int clip, int conversation) {
 		mode=2;
@@ -42,6 +47,11 @@ public class SystemController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (data.data.mode!=mode) {
+            mode=data.data.mode;
+            if (data.data.mode==1)
+                modeRunner(0);
+        }
         if (mode==1) {
         	gameObject.transform.position = new Vector3(gameObject.transform.position.x+0.01f,gameObject.transform.position.y,0);
         	if (countLevelPart < level.prefabs.Length) {
@@ -49,6 +59,8 @@ public class SystemController : MonoBehaviour
         			GameObject temp = Instantiate(level.prefabs[countLevelPart].prefabLevel, new Vector3(0,-100,0), Quaternion.identity);
         			temp.transform.parent = null;
         			temp.transform.position = new Vector3(position,-0.51f,0);
+                    temp.transform.parent = levelContainer.transform;
+
         			if (level.prefabs[countLevelPart].loop)
         				position = position+level.prefabs[countLevelPart].size.x;
         		}

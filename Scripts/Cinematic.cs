@@ -23,4 +23,9 @@ public class Cinematic : MonoBehaviour
     public void setAnimation() {
     	anim.SetInteger("cinematic",num);
     }
+
+    public void setMode(int mode) {
+	  	data.data.mode=mode;
+	  	data.data.dialogNum=0;
+    }
 }

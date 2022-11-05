@@ -29,7 +29,7 @@ public class Harpy : MonoBehaviour
     void Start()
     {
     	anim = gameObject.transform.GetComponent<Animator>();
-        startTime = Time.time;
+        startTime = Time.time+1.0f;
         clips = anim.runtimeAnimatorController.animationClips;
         enemyName.name = "Moon Harpy";
         sizeX=HpBar.GetComponent<RectTransform>().sizeDelta.x;
@@ -41,7 +41,7 @@ public class Harpy : MonoBehaviour
     {
         if (Time.time-startTime>timeToAttack && canAttack==true) {
         	canAttack=false;
-        	Attack(Random.Range(0,3),Random.Range(0,2)*2-1);
+        	Attack(Random.Range(0,2),Random.Range(0,2)*2-1);
         }
     }
 
