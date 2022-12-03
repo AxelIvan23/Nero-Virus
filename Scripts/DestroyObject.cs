@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class DestroyObject : MonoBehaviour
 {
+	public float time=0;
+	public int band=0;
+	public void Start() {
+		if (band==1) {
+			destroyParent();
+		}
+	}
     public void destroyParent() {
-    	Destroy(gameObject.transform.parent.gameObject);
+    	Destroy(gameObject,time);
     }
 }

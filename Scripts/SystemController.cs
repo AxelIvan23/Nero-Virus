@@ -22,10 +22,13 @@ public class SystemController : MonoBehaviour
     [SerializeField]
     private ManagerData data;
 
-	public void modeConversation(int clip, int conversation) {
+	public IEnumerator modeConversation(int clip, int conversation, float time) {
 		mode=2;
+        yield return new WaitForSeconds(time);
+        gameObject.GetComponent<AudioSource>().clip = audioClipArray[0];
+        gameObject.GetComponent<AudioSource>().Play();
         dialogSystem.StartConversation(conversation);
-        gameObject.GetComponent<AudioSource>().PlayOneShot(audioClipArray[clip]);
+        //gameObject.GetComponent<AudioSource>().PlayOneShot(audioClipArray[clip]);
 	}
 
 	public void modeGame() {
@@ -35,13 +38,22 @@ public class SystemController : MonoBehaviour
 	public void modeRunner(int clip) {
 		mode=1;
 		position=level.prefabs[0].atPosition;
-        gameObject.GetComponent<AudioSource>().PlayOneShot(audioClipArray[clip]);
+        gameObject.GetComponent<AudioSource>().clip = audioClipArray[1];
+        gameObject.GetComponent<AudioSource>().Play();
+        //gameObject.GetComponent<AudioSource>().PlayOneShot(audioClipArray[clip]);
         StartCoroutine("temp");
 	}
     // Start is called before the first frame update
     void Start()
     {
-        modeConversation(0,0);
+        gameObject.GetComponent<AudioSource>().volume = 1.0f;
+        data.data.mode=2;
+        mode = data.data.mode;
+        if (mode==2) {
+            StartCoroutine(modeConversation(0,0,2.5f));
+        } else if (mode==1) {
+            modeRunner(0);
+        } 
     }
 
     // Update is called once per frame
@@ -53,7 +65,7 @@ public class SystemController : MonoBehaviour
                 modeRunner(0);
         }
         if (mode==1) {
-        	gameObject.transform.position = new Vector3(gameObject.transform.position.x+0.01f,gameObject.transform.position.y,0);
+        	gameObject.transform.position = new Vector3(gameObject.transform.position.x+1.55f*Time.deltaTime,gameObject.transform.position.y,0);
         	if (countLevelPart < level.prefabs.Length) {
         		if (gameObject.transform.position.x > position-(level.prefabs[countLevelPart].atPosition/1.0f)) {
         			GameObject temp = Instantiate(level.prefabs[countLevelPart].prefabLevel, new Vector3(0,-100,0), Quaternion.identity);

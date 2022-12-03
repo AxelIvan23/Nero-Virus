@@ -18,6 +18,7 @@ public class Harpy : MonoBehaviour
     [SerializeField]
     private Image HpBar;
 	private int animation;
+    private int attacks;
 	private float startTime; 
     private float sizeX; 
 	private AnimationClip[] clips;
@@ -48,23 +49,28 @@ public class Harpy : MonoBehaviour
     public void Attack(int attack, int direction) {
     	//attack=1;
     	Debug.Log(direction);
+        Debug.Log("Attack: "+ attack);
     	gameObject.transform.parent.rotation = Quaternion.Euler(0,90*(1+direction),0);
     	switch (attack) {
     		case 0: gameObject.transform.parent.position = new Vector3(gameObject.transform.parent.parent.position.x+(1.167f*direction), Random.Range(-0.268f,0.0f),0);
-    				anim.SetInteger("State",1);break;
+    				anim.SetInteger("State",1);attacks=0;break;
     		case 1: gameObject.transform.parent.position = new Vector3(gameObject.transform.parent.parent.position.x+(1.167f*direction), 0.423f,0);
-    				anim.SetInteger("State",2);StartCoroutine("Attack2Generate");break;
+    				anim.SetInteger("State",2);attacks=1;StartCoroutine("Attack2Generate");break;
     		case 2: ;break;
     		case 3: ;break;
     	}
     }
 
-    public void Repeat() {
+    public IEnumerator Repeat() {
     	int num = Random.Range(0,5);
-    	if (num==2 || num==3) 
-    		Attack(Random.Range(0,3),Random.Range(0,2)*2-1);
+        Debug.Log("Num: "+num);
+    	if (num==2 || num==3)  {
+            anim.SetInteger("State",0);
+            yield return new WaitForSeconds(0.5f);
+    		Attack(attacks,Random.Range(0,2)*2-1);
+        }
     	else  {
-    		anim.SetInteger("state",4);
+    		StartCoroutine("Vulnerable");
     	}
     }
 
@@ -74,12 +80,10 @@ public class Harpy : MonoBehaviour
     }
 
     private IEnumerator Attack2Generate() {
-    	Debug.Log(clips[1]);
+    	//Debug.Log(clips[1]);
     	
     	float num1 = Random.Range(0.55f,(clips[1].length/2.0f)-0.4f);
     	float num2 = Random.Range(0.55f,(clips[1].length/2.0f)-0.4f);
-    	Debug.Log("Random num1: "+num1);
-    	Debug.Log("Random num2: "+num2);
 
     	if (num1>num2) {
     		float temp = num2;
@@ -94,7 +98,7 @@ public class Harpy : MonoBehaviour
     }
 
     public IEnumerator Vulnerable() {
-    	Debug.Log("Vulnerable");
+        Debug.Log("Entraste?");
     	gameObject.transform.parent.position = new Vector3(gameObject.transform.parent.position.x,0.12f,0);
     	anim.SetInteger("State",6);
     	yield return new WaitForSeconds(clips[4].length);

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1072005865}
   m_Layer: 0
   m_Name: DamageBox
-  m_TagString: Untagged
+  m_TagString: Hit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 1596666044017712105}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,7 +116,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d2751fbd8eb51724c92aae0ebba63bd4, type: 2}
+  - {fileID: 2100000, guid: 4789d748eadfb0546bfbbebb1df71da2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -147,7 +147,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 1
+  m_SpriteSortPoint: 0
 --- !u!95 &1596666044017712115
 Animator:
   serializedVersion: 4
@@ -183,7 +183,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596666044017712112}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54129e8ba4235a445a7354c03333c2b8, type: 3}
   m_Name: 
@@ -207,8 +207,10 @@ MonoBehaviour:
   canBeHit: 1
   canAttack: 1
   attack: 0
-  dialogSystem: {fileID: 0}
+  normal: {fileID: 2100000, guid: 4789d748eadfb0546bfbbebb1df71da2, type: 2}
+  glitch: {fileID: 2100000, guid: d2751fbd8eb51724c92aae0ebba63bd4, type: 2}
   data: {fileID: 11400000, guid: 30bf4a4d8dc5b1e4e98400832bff8391, type: 2}
+  gameEnd: {fileID: 0}
 --- !u!70 &1596666044017712105
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -223,7 +225,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.285}
-  m_Size: {x: 0.9999999, y: 1}
+  m_Size: {x: 1, y: 1}
   m_Direction: 0
 --- !u!1 &5179685738193918845
 GameObject:
@@ -234,14 +236,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 134971882108061434}
-  - component: {fileID: 7465833076456253277}
+  - component: {fileID: 1750845826}
   m_Layer: 0
   m_Name: HitBox
   m_TagString: Hit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &134971882108061434
 Transform:
   m_ObjectHideFlags: 0
@@ -257,29 +259,19 @@ Transform:
   m_Father: {fileID: 1596666044017712117}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &7465833076456253277
-BoxCollider2D:
+--- !u!70 &1750845826
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5179685738193918845}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0, y: -0.27}
+  m_Size: {x: 0.34, y: 1.1}
+  m_Direction: 0
