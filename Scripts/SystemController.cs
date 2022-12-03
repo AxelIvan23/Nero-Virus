@@ -6,6 +6,7 @@ public class SystemController : MonoBehaviour
 {
 	private int countLevelPart=0;
 	private float position;
+    [SerializeField]
 	private int mode;
     private int dialogNum;
 	private float playerHP;
@@ -33,6 +34,8 @@ public class SystemController : MonoBehaviour
 
 	public void modeGame() {
 		mode=0;
+        gameObject.GetComponent<AudioSource>().clip = audioClipArray[0];
+        gameObject.GetComponent<AudioSource>().Play();
 	}
 
 	public void modeRunner(int clip) {
@@ -47,13 +50,14 @@ public class SystemController : MonoBehaviour
     void Start()
     {
         gameObject.GetComponent<AudioSource>().volume = 1.0f;
-        data.data.mode=2;
-        mode = data.data.mode;
+        data.data.mode=mode;
         if (mode==2) {
             StartCoroutine(modeConversation(0,0,2.5f));
         } else if (mode==1) {
             modeRunner(0);
-        } 
+        } else {
+            modeGame();
+        }
     }
 
     // Update is called once per frame

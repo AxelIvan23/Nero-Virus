@@ -21,4 +21,13 @@ public class Enemigo : MonoBehaviour
         Instantiate(efectomuerte, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "Hit") {
+            vida=vida-25f;
+            
+            if(vida <= 0) {
+                Muerte();
+            }
+        }
+    }
 }

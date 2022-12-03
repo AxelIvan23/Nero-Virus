@@ -16,6 +16,7 @@ public class PlayerMov : MonoBehaviour
     private int state=0;
 	private Animator anim;
     private Rigidbody2D body;
+    private SpriteRenderer spriteRenderer;
     private float hp;
     public int attack=0;
     public Material normal;
@@ -30,6 +31,7 @@ public class PlayerMov : MonoBehaviour
     {
         anim = gameObject.GetComponent<Animator>();
         body = gameObject.GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
         gameObject.GetComponent<Renderer>().material = normal;
     }
 
@@ -56,9 +58,11 @@ public class PlayerMov : MonoBehaviour
         }
         if (data.data.mode==0) {
             if (Input.GetAxis("Horizontal")>0) {
+                spriteRenderer.flipX = false;
                 anim.SetInteger("State",1);
             } else if (Input.GetAxis("Horizontal")<0) {
-
+                spriteRenderer.flipX = true;
+                anim.SetInteger("State",1);
             } else 
                 anim.SetInteger("State",0);
         }
@@ -112,6 +116,7 @@ public class PlayerMov : MonoBehaviour
     private void gameOver() {
         gameObject.GetComponent<Renderer>().material = glitch;
         anim.SetInteger("State",5);
+        anim.SetBool("gameEnd",true);
         gameEnd.SetActive(true);
     }
 
