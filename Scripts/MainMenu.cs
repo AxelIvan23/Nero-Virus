@@ -12,6 +12,8 @@ public class MainMenu : MonoBehaviour
 	private bool[] disponibles;
 	[SerializeField]
 	private RectTransform marco;
+	[SerializeField]
+    private ManagerData data;
 
 	int num=1;
     // Start is called before the first frame update
@@ -52,6 +54,8 @@ public class MainMenu : MonoBehaviour
         if (num==4)
         	marco.anchoredPosition = new Vector2(470f,-194f);
 
+        data.data.Player=num;
+
         for (int i=0;i<characters.Length;i++) {
         	if (i==num-1)
         		characters[i].SetActive(true);
@@ -62,7 +66,9 @@ public class MainMenu : MonoBehaviour
 
     public void cargarEscena(string escena)
     {
-        SceneManager.LoadScene(escena);
+    	if (disponibles[num]==true) {
+        	SceneManager.LoadScene(escena);
+    	}
     }
 
     public void salir()

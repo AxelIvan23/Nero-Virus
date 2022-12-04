@@ -18,7 +18,7 @@ public class UI_Health : MonoBehaviour
     {   
         hearts = new List<Image>();
     	hp= data.data.HP;
-        for (int i=0; i<data.data.TotalHP;i++) {
+        for (int i=0; i<data.data.MaxHP;i++) {
         	Image instance=Instantiate(heart, gameObject.transform.position,Quaternion.identity,gameObject.transform);
         	//instance.transform.position = new Vector3(gameObject.transform.position.x+10+i*(Screen.width*70/1080),0,0);
         	instance.GetComponent<RectTransform>().anchoredPosition = new Vector2(10+i*(Screen.width*70/1920)+(10*i),0);
@@ -43,7 +43,7 @@ public class UI_Health : MonoBehaviour
     }
 
     public void OnHpChange() {
-        for (int i=0; i<data.data.TotalHP;i++) {
+        for (int i=0; i<data.data.MaxHP;i++) {
             Image instance=hearts[i];
             if (hp>=0.5)
                 instance.sprite = heartState[1];
