@@ -627,6 +627,7 @@ MonoBehaviour:
   - {fileID: 2126644708}
   disponibles: 01010000
   marco: {fileID: 382740305}
+  data: {fileID: 11400000, guid: 30bf4a4d8dc5b1e4e98400832bff8391, type: 2}
 --- !u!4 &429481540
 Transform:
   m_ObjectHideFlags: 0
