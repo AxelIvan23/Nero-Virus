@@ -33,6 +33,8 @@ public class PlayerMov : MonoBehaviour
         body = gameObject.GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         gameObject.GetComponent<Renderer>().material = normal;
+        if (data.data.mode==1) 
+            anim.SetInteger("State",1);
     }
 
     // Update is called once per frame

@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 3725297684126239156}
   m_Layer: 0
   m_Name: habilidad 1
-  m_TagString: Untagged
+  m_TagString: Hit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -25,7 +25,7 @@ public class DialogSystem : MonoBehaviour
 	[SerializeField]
 	private GameObject DecisionsPanel;
 	[SerializeField]
-	private GameObject Player;
+	private GameObject[] Player;
     [SerializeField]
     private ManagerData data;
     [SerializeField]
@@ -47,7 +47,10 @@ public class DialogSystem : MonoBehaviour
     	decision=1;
     	flag=0;
     	ChatPanel.SetActive(true);
-    	Player.GetComponent<PlayerMov>().enabled = false;
+    	if (data.data.Player==0)
+            Player[0].GetComponent<PlayerMov>().enabled = false;
+        if (data.data.Player==1)
+            Player[1].GetComponent<SimplePlayerController>().enabled = false;
     	ConversationNum = ConverNum;
     	Dialog(Num);
     }
@@ -63,10 +66,13 @@ public class DialogSystem : MonoBehaviour
     public void EndConversation() {
         ChatPanel.SetActive(false);
         LifePanel.SetActive(true);
-    	Player.GetComponent<PlayerMov>().enabled = true;
+        if (data.data.Player==0)
+    	    Player[0].GetComponent<PlayerMov>().enabled = true;
+        if (data.data.Player==1)
+            Player[1].GetComponent<SimplePlayerController>().enabled = true;
     	gameObject.GetComponent<DialogSystem>().enabled = false;
         for (int i=0; i<enableObjects.Length; i++) {
             enableObjects[i].SetActive(true);
         }
-    }
+    } 
 }

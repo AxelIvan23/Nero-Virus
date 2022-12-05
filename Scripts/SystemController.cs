@@ -13,6 +13,8 @@ public class SystemController : MonoBehaviour
 	private float playerMP;
 
     [SerializeField]
+    private GameObject[] Characters;
+    [SerializeField]
     private GameObject levelContainer;
     [SerializeField]
     private AudioClip[] audioClipArray;
@@ -51,6 +53,10 @@ public class SystemController : MonoBehaviour
     {
         gameObject.GetComponent<AudioSource>().volume = 1.0f;
         data.data.mode=mode;
+        for (int i=0;i<Characters.Length;i++) {
+            if (i==data.data.Player)
+                Characters[i].SetActive(true);
+        }
         if (mode==2) {
             StartCoroutine(modeConversation(0,0,2.5f));
         } else if (mode==1) {
