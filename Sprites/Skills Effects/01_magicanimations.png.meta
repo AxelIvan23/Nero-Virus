@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -3646,9 +3646,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       01_magicanimations_78: -1087257312
-      01_magicanimations_154: 854677859
       01_magicanimations_107: -1838090231
-      01_magicanimations_164: -1924701862
       01_magicanimations_8: -1679237344
       01_magicanimations_137: 1801988174
       01_magicanimations_48: -1065000086
@@ -3666,27 +3664,27 @@ TextureImporter:
       01_magicanimations_140: 1611506194
       01_magicanimations_126: 581406170
       01_magicanimations_9: 664028374
-      01_magicanimations_70: -837978713
+      01_magicanimations_89: -1378507503
       01_magicanimations_54: 40281935
-      01_magicanimations_97: 1718094969
+      01_magicanimations_70: -837978713
       01_magicanimations_86: -1382499955
+      01_magicanimations_97: 1718094969
       01_magicanimations_36: -828835536
-      01_magicanimations_111: -1626697064
       01_magicanimations_0: -1922403007
       01_magicanimations_133: -1840296457
+      01_magicanimations_111: -1626697064
       01_magicanimations_121: -570509801
       01_magicanimations_84: 1262489736
       01_magicanimations_147: -1259205240
-      01_magicanimations_89: -1378507503
       01_magicanimations_10: 581322666
       01_magicanimations_151: 475495921
-      01_magicanimations_38: -770310114
       01_magicanimations_46: -1971287473
-      01_magicanimations_58: 717989477
+      01_magicanimations_38: -770310114
       01_magicanimations_110: -1172693441
       01_magicanimations_27: 1283919505
       01_magicanimations_64: 944000986
       01_magicanimations_1: -547847917
+      01_magicanimations_58: 717989477
       01_magicanimations_141: 116122628
       01_magicanimations_77: 440658298
       01_magicanimations_92: -1769217301
@@ -3707,23 +3705,25 @@ TextureImporter:
       01_magicanimations_131: -265632533
       01_magicanimations_3: 2036345861
       01_magicanimations_129: 1528984501
+      01_magicanimations_31: -1812342187
       01_magicanimations_81: -376623712
       01_magicanimations_112: -1705384655
       01_magicanimations_63: 1121626061
       01_magicanimations_113: 1767786047
       01_magicanimations_79: -573539383
       01_magicanimations_99: -1171239744
+      01_magicanimations_53: 754239841
       01_magicanimations_4: 831392490
       01_magicanimations_7: -1361788511
-      01_magicanimations_90: -153979780
       01_magicanimations_68: -1793243661
-      01_magicanimations_62: -2116482693
-      01_magicanimations_14: -391260217
-      01_magicanimations_23: 1023861102
-      01_magicanimations_21: -1204701545
       01_magicanimations_93: 1100309180
-      01_magicanimations_53: 754239841
+      01_magicanimations_14: -391260217
       01_magicanimations_87: -822207494
+      01_magicanimations_90: -153979780
+      01_magicanimations_21: -1204701545
+      01_magicanimations_160: -1165701556
+      01_magicanimations_62: -2116482693
+      01_magicanimations_23: 1023861102
       01_magicanimations_16: -487518002
       01_magicanimations_11: 1177612226
       01_magicanimations_52: -1455606472
@@ -3733,21 +3733,21 @@ TextureImporter:
       01_magicanimations_159: -695908984
       01_magicanimations_57: -48134062
       01_magicanimations_75: -1776984530
+      01_magicanimations_162: -1744307228
       01_magicanimations_138: -1821031371
       01_magicanimations_80: -837494019
       01_magicanimations_13: -1579923219
       01_magicanimations_33: -1583851769
       01_magicanimations_82: -1647677794
-      01_magicanimations_149: 668944019
       01_magicanimations_65: -1084792401
-      01_magicanimations_162: -1744307228
       01_magicanimations_143: -837846921
       01_magicanimations_22: -1432407136
       01_magicanimations_61: -1032924718
       01_magicanimations_135: 207973756
-      01_magicanimations_150: -190034272
+      01_magicanimations_149: 668944019
       01_magicanimations_155: -1851400817
       01_magicanimations_158: 1846676790
+      01_magicanimations_150: -190034272
       01_magicanimations_152: 586569602
       01_magicanimations_50: -1683446044
       01_magicanimations_5: -1040540162
@@ -3756,7 +3756,7 @@ TextureImporter:
       01_magicanimations_39: -839453293
       01_magicanimations_12: -1373333279
       01_magicanimations_96: 419493696
-      01_magicanimations_160: -1165701556
+      01_magicanimations_165: 1018909842
       01_magicanimations_122: 1135511247
       01_magicanimations_43: 716749310
       01_magicanimations_28: -227856838
@@ -3764,7 +3764,6 @@ TextureImporter:
       01_magicanimations_132: -877756602
       01_magicanimations_166: 486338175
       01_magicanimations_47: 1994581609
-      01_magicanimations_165: 1018909842
       01_magicanimations_18: -202587401
       01_magicanimations_45: 835080088
       01_magicanimations_127: -2104109238
@@ -3808,9 +3807,10 @@ TextureImporter:
       01_magicanimations_161: 1444631813
       01_magicanimations_25: 1128526870
       01_magicanimations_116: 1314457311
+      01_magicanimations_164: -1924701862
       01_magicanimations_29: -1454480924
+      01_magicanimations_154: 854677859
       01_magicanimations_30: 1808675204
-      01_magicanimations_31: -1812342187
       01_magicanimations_109: -581803989
   spritePackingTag: 
   pSDRemoveMatte: 0
