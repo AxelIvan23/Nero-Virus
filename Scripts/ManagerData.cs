@@ -5,7 +5,9 @@ public class ManagerData : ScriptableObject
 {
     [System.Serializable]
     public struct Data {
-    	public int TotalHP;
+    	public int Player; 
+    	public int MaxHP;
+    	public float SavedHP; 
     	public float HP; 
     	public int dialogNum;
     	public int mode;

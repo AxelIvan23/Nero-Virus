@@ -22,9 +22,6 @@ public class AnimacionesUI : MonoBehaviour
         LeanTween.alpha(btnopciones.GetComponent<RectTransform>(), 0f, 0f);
         LeanTween.alpha(btnsalir.GetComponent<RectTransform>(), 0f, 0f);
         LeanTween.alpha(fondo.GetComponent<RectTransform>(), 0f, 0f);
-
-        LeanTween.moveX(logo.GetComponent<RectTransform>(), 480, 10f).setEase(LeanTweenType.easeInOutQuart)
-            .setOnComplete(muestrabotones);
     }
 
     private void muestrabotones()
@@ -56,6 +53,10 @@ public class AnimacionesUI : MonoBehaviour
         LeanTween.moveY(txtgeneral.GetComponent<RectTransform>(), 710, 1f).setEase(LeanTweenType.easeInOutQuart);
     }
 
+    public void animateStart() {
+        LeanTween.moveX(logo.GetComponent<RectTransform>(), 480, 10f).setEase(LeanTweenType.easeInOutQuart)
+            .setOnComplete(muestrabotones);
+    }
 
     // Update is called once per frame
     void Update()

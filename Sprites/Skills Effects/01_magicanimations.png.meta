@@ -3658,7 +3658,10 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       01_magicanimations_78: -1087257312
+<<<<<<< HEAD
       01_magicanimations_30: 1808675204
+=======
+>>>>>>> e60eec3f20207d77731f4e5d7f91c7b148b161d2
       01_magicanimations_107: -1838090231
       01_magicanimations_8: -1679237344
       01_magicanimations_137: 1801988174
@@ -3692,12 +3695,13 @@ TextureImporter:
       01_magicanimations_10: 581322666
       01_magicanimations_151: 475495921
       01_magicanimations_46: -1971287473
-      01_magicanimations_58: 717989477
+      01_magicanimations_38: -770310114
       01_magicanimations_110: -1172693441
       01_magicanimations_38: -770310114
       01_magicanimations_27: 1283919505
       01_magicanimations_64: 944000986
       01_magicanimations_1: -547847917
+      01_magicanimations_58: 717989477
       01_magicanimations_141: 116122628
       01_magicanimations_77: 440658298
       01_magicanimations_92: -1769217301
@@ -3718,6 +3722,7 @@ TextureImporter:
       01_magicanimations_131: -265632533
       01_magicanimations_3: 2036345861
       01_magicanimations_129: 1528984501
+      01_magicanimations_31: -1812342187
       01_magicanimations_81: -376623712
       01_magicanimations_112: -1705384655
       01_magicanimations_63: 1121626061
@@ -3725,6 +3730,7 @@ TextureImporter:
       01_magicanimations_79: -573539383
       01_magicanimations_99: -1171239744
       01_magicanimations_53: 754239841
+<<<<<<< HEAD
       01_magicanimations_90: -153979780
       01_magicanimations_7: -1361788511
       01_magicanimations_4: 831392490
@@ -3735,7 +3741,19 @@ TextureImporter:
       01_magicanimations_21: -1204701545
       01_magicanimations_93: 1100309180
       01_magicanimations_62: -2116482693
+=======
+      01_magicanimations_4: 831392490
+      01_magicanimations_7: -1361788511
+      01_magicanimations_68: -1793243661
+      01_magicanimations_93: 1100309180
+      01_magicanimations_14: -391260217
+>>>>>>> e60eec3f20207d77731f4e5d7f91c7b148b161d2
       01_magicanimations_87: -822207494
+      01_magicanimations_90: -153979780
+      01_magicanimations_21: -1204701545
+      01_magicanimations_160: -1165701556
+      01_magicanimations_62: -2116482693
+      01_magicanimations_23: 1023861102
       01_magicanimations_16: -487518002
       01_magicanimations_11: 1177612226
       01_magicanimations_52: -1455606472
@@ -3820,9 +3838,15 @@ TextureImporter:
       01_magicanimations_25: 1128526870
       01_magicanimations_116: 1314457311
       01_magicanimations_164: -1924701862
+<<<<<<< HEAD
       01_magicanimations_154: 854677859
       01_magicanimations_31: -1812342187
       01_magicanimations_29: -1454480924
+=======
+      01_magicanimations_29: -1454480924
+      01_magicanimations_154: 854677859
+      01_magicanimations_30: 1808675204
+>>>>>>> e60eec3f20207d77731f4e5d7f91c7b148b161d2
       01_magicanimations_109: -581803989
   spritePackingTag: 
   pSDRemoveMatte: 0

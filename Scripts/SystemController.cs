@@ -11,7 +11,10 @@ public class SystemController : MonoBehaviour
     private int dialogNum;
 	private float playerHP;
 	private float playerMP;
+    public float delay;
 
+    [SerializeField]
+    private GameObject[] Characters;
     [SerializeField]
     private GameObject levelContainer;
     [SerializeField]
@@ -51,8 +54,12 @@ public class SystemController : MonoBehaviour
     {
         gameObject.GetComponent<AudioSource>().volume = 1.0f;
         data.data.mode=mode;
+        for (int i=0;i<Characters.Length;i++) {
+            if (i==data.data.Player)
+                Characters[i].SetActive(true);
+        }
         if (mode==2) {
-            StartCoroutine(modeConversation(0,0,2.5f));
+            StartCoroutine(modeConversation(0,0,delay));
         } else if (mode==1) {
             modeRunner(0);
         } else {
