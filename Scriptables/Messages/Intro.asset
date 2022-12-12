@@ -13,27 +13,76 @@ MonoBehaviour:
   m_Name: Intro
   m_EditorClassIdentifier: 
   messages:
-  - message: ...
+  - message: 'Location: Central Server.'
     name: Narrador
     sound: {fileID: 0}
     decision: []
-  - message: 
-    name: 
+  - message: Oh, hola, Debes estarte preguntando donde estas. Este es el servidor
+      central!
+    name: ???
     sound: {fileID: 0}
     decision: []
-  - message: 
-    name: 
+  - message: Servidor central!?
+    name: "T\xFA"
     sound: {fileID: 0}
     decision: []
-  - message: 
-    name: 
+  - message: Eso es correcto. Fuiste digitalizado y raptado por el virus Nero.
+    name: ???
     sound: {fileID: 0}
     decision: []
-  - message: 
-    name: 
+  - message: "Y ahora estar\xEDas encerrado en su prisi\xF3n o transformado en una
+      version virus de ti mismo si no te hubiera salvado"
+    name: ???
     sound: {fileID: 0}
     decision: []
-  - message: 
-    name: 
+  - message: "Porque me salvaste? Qui\xE9n eres!?"
+    name: "T\xFA"
+    sound: {fileID: 0}
+    decision: []
+  - message: "Todav\xEDa que te salvo y ni las gracias das >:("
+    name: ???
+    sound: {fileID: 0}
+    decision: []
+  - message: "...........Me llamo Dronny... te salv\xE9 porque necesitamos a alguien
+      que detenga todo el caos que Nero est\xE1 causando."
+    name: Dronny
+    sound: {fileID: 0}
+    decision: []
+  - message: y porque crees que yo puedo hacer tal cosa?
+    name: "T\xFA"
+    sound: {fileID: 0}
+    decision: []
+  - message: "Mmmm dejame ver, porque eres el elegido?... No, muy clich\xE9. Por
+      tu fuerza?... No, se ve que no vas al gym."
+    name: Dronny
+    sound: {fileID: 0}
+    decision: []
+  - message: "Si es que la uni no da chance y menos con cierta clase. cof cof alegr\xEDa."
+    name: Dronny
+    sound: {fileID: 0}
+    decision: []
+  - message: ...........O si ya me acorde, tal vez porque todo esto es TU CULPA!?
+    name: Dronny
+    sound: {fileID: 0}
+    decision: []
+  - message: Que quieres decir con mi culpa?
+    name: "T\xFA"
+    sound: {fileID: 0}
+    decision: []
+  - message: Tu y tus amigos liberaron a Nero por error por andar de curiosos. Una
+      vez libre se apoderoo de todos los servidores de la UAA y los corrompio, digitalizando
+      a todo aquel que estuviera conectado a la red, incluyendote.
+    name: Dronny
+    sound: {fileID: 0}
+    decision: []
+  - message: "Cuando te rescate tambien obtuviste habilidades, usalas para rescatar
+      a tus amigos y acabar con Nero, para lograrlo deber\xE1s recolectar 6 tarjetas
+      de acceso para poder ir a donde Nero se encuentra"
+    name: Dronny
+    sound: {fileID: 0}
+    decision: []
+  - message: "A la derecha encontraras el servidor del Econom\xEDa, es una jungla
+      ah\xED dentro"
+    name: Dronny
     sound: {fileID: 0}
     decision: []
