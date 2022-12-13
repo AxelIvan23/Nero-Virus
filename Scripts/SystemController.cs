@@ -12,6 +12,7 @@ public class SystemController : MonoBehaviour
 	private float playerHP;
 	private float playerMP;
     public float delay;
+    public bool cinemachine;
 
     [SerializeField]
     private GameObject[] Characters;
@@ -25,6 +26,7 @@ public class SystemController : MonoBehaviour
     private DialogSystem dialogSystem;
     [SerializeField]
     private ManagerData data;
+
 
 	public IEnumerator modeConversation(int clip, int conversation, float time) {
 		mode=2;
@@ -55,8 +57,12 @@ public class SystemController : MonoBehaviour
         gameObject.GetComponent<AudioSource>().volume = 1.0f;
         data.data.mode=mode;
         for (int i=0;i<Characters.Length;i++) {
-            if (i==data.data.Player)
+            if (i==data.data.Player) {
                 Characters[i].SetActive(true);
+                Transform follow = transform.GetChild(0);
+                transform.GetChild(0).SetParent(Characters[i].transform);
+                follow.localPosition = new Vector3(0,0,0);
+            }
         }
         if (mode==2) {
             StartCoroutine(modeConversation(0,0,delay));

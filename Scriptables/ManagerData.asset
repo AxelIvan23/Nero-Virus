@@ -17,5 +17,5 @@ MonoBehaviour:
     MaxHP: 5
     SavedHP: 4
     HP: 2.5
-    dialogNum: 6
-    mode: 2
+    dialogNum: 0
+    mode: 0

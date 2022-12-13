@@ -103,9 +103,19 @@ public class PlayerMov : MonoBehaviour
             else
                 StartCoroutine(coolDown((result)=>{canBeHit=result;},1.5f));
         }
+        if (other.tag == "Message") {
+
+        }
     }
-    void OnTriggerExit2D(Collider2D other)
-    {
+    void OnTriggerStay2D(Collider2D other) {
+        if (other.tag == "Message") {
+            if (Input.GetKeyDown ("e")) {
+                other.gameObject.GetComponent<DialogSystem>().enabled = true;
+                other.gameObject.GetComponent<DialogSystem>().StartConversation(0);
+            }
+        }
+    }
+    void OnTriggerExit2D(Collider2D other) {
     	//conversation=0;
     	//notification.SetActive(false);
     }

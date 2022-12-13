@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94a74d620dcfe034494ad36d19ab691f, type: 3}
+  m_Name: HowToAttack
+  m_EditorClassIdentifier: 
+  messages:
+  - message: "Ves esas cajas de ah\xED? puedes utilizar tu habilidad para destruirlas
+      usando la tecla e"
+    name: Dronny
+    sound: {fileID: 0}
+    decision: []
+  - message: "Tambien podr\xEDas intentar saltar sobre ellas apretando la barra espaciadora"
+    name: Dronny
+    sound: {fileID: 0}
+    decision: []
+  - message: "De que hablas, cu\xE1les teclas? esto no es un videojuego"
+    name: "T\xFA"
+    sound: {fileID: 0}
+    decision: []
+  - message: ...
+    name: Dronny
+    sound: {fileID: 0}
+    decision: []

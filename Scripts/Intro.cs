@@ -7,6 +7,7 @@ public class Intro : MonoBehaviour
 	public AnimacionesUI animaciones;
 	public GameObject panel;
 	UnityEngine.Video.VideoPlayer videoPlayer;
+	int band=0;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +18,19 @@ public class Intro : MonoBehaviour
     void Update()
     {
         videoPlayer.loopPointReached += EndReached;
+        if (Input.anyKey && band==0) {
+        	band=1;
+        	videoPlayer.Pause();
+        	panel.SetActive(true);
+        	animaciones.animateStart();
+        }
     }
 
     void EndReached(UnityEngine.Video.VideoPlayer vp) {
         //vp.playbackSpeed = vp.playbackSpeed / 10.0F;
         videoPlayer.Pause();
         panel.SetActive(true);
+        band=1;
         animaciones.animateStart();
     }
 }
