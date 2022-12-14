@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
     public class SimplePlayerController : MonoBehaviour
     {
@@ -16,12 +17,19 @@
         [SerializeField]
         private GameObject gameEnd;
 
+        [SerializeField] private float velocidadDash;
+        [SerializeField] private float tiempoDash;
+        private float gravedadinicial;
+        private bool puedeHacerDash = true;
+        private bool sepuedeMover = true;
 
-        // Start is called before the first frame update
-        void Start()
+
+    // Start is called before the first frame update
+    void Start()
         {
             rb = GetComponent<Rigidbody2D>();
             anim = GetComponent<Animator>();
+            gravedadinicial = rb.gravityScale;
         }
 
         private void Update()
@@ -34,6 +42,10 @@
                 Attack();
                 Jump();
                 Run();
+                if (Input.GetKeyDown(KeyCode.C) && puedeHacerDash)
+                {
+                    StartCoroutine(Dash());
+                }
 
             }
         }
@@ -47,7 +59,21 @@
             }
         }
 
+        private IEnumerator Dash()
+        {
+            sepuedeMover = false;
+            puedeHacerDash = false;
+            rb.gravityScale = 0;
 
+            rb.velocity = new Vector2(velocidadDash, 0);
+            
+            yield return new WaitForSeconds(tiempoDash);
+
+            sepuedeMover = true;
+            puedeHacerDash = true;
+            rb.gravityScale = gravedadinicial;
+            
+        }
 
         void Run()
         {

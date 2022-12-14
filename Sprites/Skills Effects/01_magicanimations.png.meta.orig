@@ -1,0 +1,3856 @@
+fileFormatVersion: 2
+guid: 50911e0e0e075664e8089ed198a75fb8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 01_magicanimations_0
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 780
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979a8ba3adc4ecc4386bfa8f1fe88fed
+      internalID: -1922403007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 819
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c5cc48f6edea848b1fb2e2a63df8cc
+      internalID: -547847917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 768
+        width: 95
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291e093aec598f64f8df066a26e42b9d
+      internalID: 334566141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 791
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08753f7d2f9856f47a7cd805c000af6e
+      internalID: 2036345861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 783
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a475858529b2847b1909b24b623131
+      internalID: 831392490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 791
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51297308946d00841975f429b267d4ba
+      internalID: -1040540162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_6
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 788
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3b8f0267d362244bc2004442fd2f2a
+      internalID: 1743644492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 790
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916aea54fa108a7489ea15fd313ae6f4
+      internalID: -1361788511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 792
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60da8559d8878ba448573bf372e1b79a
+      internalID: -1679237344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 787
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d60dddf5b060646a9e590399e00758
+      internalID: 664028374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_10
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 768
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6d1c88c15e0ac498f2dfcbb1fffaeb
+      internalID: 581322666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 733
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821e15b841b22fd4da5ed6f4f8e4136f
+      internalID: 1177612226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 721
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f43a4df98d342438702adc20da1ef0
+      internalID: -1373333279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 726
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35aa3366989ca20419a0e5f0624dd4c8
+      internalID: -1579923219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_14
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 733
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6779655b4d82443827f7aecb24a962
+      internalID: -391260217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_15
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 725
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032510c3e70a53546a015ded3d213d6b
+      internalID: 261938947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_16
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 728
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d689a9102341720498000ad90b9ce324
+      internalID: -487518002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_17
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 716
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a08c0931749b64d8e437550e8742cc
+      internalID: 288995786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_18
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 722
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebf62b9763efab47881d66a854bf930
+      internalID: -202587401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_19
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 737
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2eb50d940cd2284088c6242fd3376ad
+      internalID: -1714697696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_20
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 704
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd40c4beb703c745901aee8bfe93fbd
+      internalID: 683778535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 729
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446c16e3a7b583d40a39253c98a433fb
+      internalID: -1204701545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_22
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 723
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae16b1f9c0c37fe418ffd438b8ec4e63
+      internalID: -1432407136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_23
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 704
+        width: 52
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ab677f5968f6c47980225d2c3e2723
+      internalID: 1023861102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_24
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 704
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad683b9f9ccb2614fa092e54cc98cd7e
+      internalID: 568730812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 670
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf39cd8e4a5347e43b56eec2ae95ef6d
+      internalID: 1128526870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 658
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0a47a63f797ed4a894a15b9ed893d6
+      internalID: 631009270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 662
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df335e8aa03e96045ae08808b7bfb5e3
+      internalID: 1283919505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_28
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 669
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7387d27c9f71aa489da921c9e41376e
+      internalID: -227856838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_29
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 670
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b7430129a99dd43bc185d30d7166ab
+      internalID: -1454480924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_30
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 662
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605caa07e08b40541a7eb55d96fe9dcd
+      internalID: 1808675204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 667
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6392a480ac4d64082f91b969712a16
+      internalID: -1812342187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_32
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 665
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5497c6f8f78a2a43b00c2a57e39ef92
+      internalID: -356084465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_33
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 652
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55393b568520d9846ae3d97b036afa10
+      internalID: -1583851769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_34
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 649
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c80ff49eee572a46a256b54509ed892
+      internalID: 414285835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_35
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 660
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f4f2ef510d16947b7865d07440f63d
+      internalID: 1426952174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_36
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 640
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605f3a1122bec334f94ba4fa739a971b
+      internalID: -828835536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_37
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 658
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79353925cee89904289e623e8cc5bae6
+      internalID: 1699500045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_38
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 640
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a420b3269434abb47a028067610f6f17
+      internalID: -770310114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_39
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 640
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f181053ad1d29a4fb93a09efc17dba2
+      internalID: -839453293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_40
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 631
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba07a772ae884aa41a2f7ef9c245c024
+      internalID: -1169225332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_41
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 374
+        width: 19
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1318732c6f612844f855a3c44336b8e0
+      internalID: 309367732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_42
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 593
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb53594fd396bb24cae7c9374dac7c33
+      internalID: 686186441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_43
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 588
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac3ba5d55bb00e448a314fd4da8c41e
+      internalID: 716749310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_44
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 618
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942d1c1e8f79f6b48bebc3d48ac30d42
+      internalID: -1729592267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_45
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 596
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ff84051e745254dabfe59ead05f5b2
+      internalID: 835080088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_46
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 618
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4974e9f995517ab409c1c05dad4f0a15
+      internalID: -1971287473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_47
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 576
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0777ac5d0ad318842a1b54723ae1f06c
+      internalID: 1994581609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeab96b58456952458041de011b94474
+      internalID: -1065000086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_49
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 602
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddcf4d428dba5c4bb00073748f5a65d
+      internalID: 526575111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 597
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99269501bbbc65c44a96a82feb489beb
+      internalID: -1683446044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_51
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 604
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d41b8861dac5d6429514c5798a3eb8f
+      internalID: 2002632274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_52
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 595
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7ebcab4fd14ac4585b9d723ad471d6
+      internalID: -1455606472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_53
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 598
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543e73de8fcb1f949bff3d19d850c6c2
+      internalID: 754239841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_54
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 603
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae1492a26903ce4c9de84c24e08bbc0
+      internalID: 40281935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_55
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 600
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2de227fa784de49bfddee4d5b2c189
+      internalID: 711129161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_56
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 601
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2441c24c32df0ef4c8837ca744536c50
+      internalID: -1234652975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_57
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 576
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47590d75de1a0204bbbc2a0b4a19fdf7
+      internalID: -48134062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_58
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 595
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837c76896d8ae444dbf1008ea647991a
+      internalID: 717989477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_59
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 571
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de202f3bfe9b2eb4ba51080020a394e1
+      internalID: 1942787907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_60
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 576
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8b8077f550e274596f14509d7fab62
+      internalID: 597243157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 528
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c1f881290e5874aa2c4850cd1586db
+      internalID: -1032924718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_62
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 525
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8944b2fcde440448a9e4e0586e4a264
+      internalID: -2116482693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_63
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 559
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722952a7441c71b49ab7cb5ff944dc3b
+      internalID: 1121626061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_64
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 531
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307c8410eb1680b4abbf130592086368
+      internalID: 944000986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_65
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 512
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ec8794a9ce022478245e6b6fb6d24e
+      internalID: -1084792401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 541
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78501fb97d2ea9540afff5e16640534f
+      internalID: 1095443946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_67
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 534
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca11f89fb5abe6044ad8a52380edb314
+      internalID: -1544110437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_68
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 533
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a6cfa9a5c24334b97baaefc024109e
+      internalID: -1793243661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_69
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 534
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a251280e0e3328c45821073683f4d31f
+      internalID: -811405973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_70
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 540
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dc8a29f6680bc46994b1973999c31f
+      internalID: -837978713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_71
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 536
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff9d3a45e6120b40b70332dd33b6c25
+      internalID: -86600241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_72
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 512
+        width: 59
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07aaa663b5624e4ea0313bcd15ba396
+      internalID: -1807027286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_73
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 384
+        width: 30
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe6708e840cb574a88a9b775be4af6a
+      internalID: 1404789677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_74
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 531
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043bddb3eb8ac6746a45873826773ee4
+      internalID: 61073698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_75
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 520
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6f490f550d6314ca402ef646d63034
+      internalID: -1776984530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_76
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 463
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf78956e1b7628645b9086eab034184f
+      internalID: 1476671095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_77
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 467
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214a8f3ddbfb00e448b61f8795c61d63
+      internalID: 440658298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_78
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 488
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acca7d0c6fbd0e9478cc9dc37ec6c9aa
+      internalID: -1087257312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_79
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 490
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c024971e55935a54b82c8fcbfe9d0d1e
+      internalID: -573539383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_80
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 486
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9686191c0eadc22479a37d243934c5d2
+      internalID: -837494019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_81
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 448
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1c7cc5146a6ee4bb7a00ee37d71eb5
+      internalID: -376623712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_82
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 468
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610b677a78dd2ea4782d856b4488554b
+      internalID: -1647677794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_83
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 471
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e05197c43bd1e46910532def17b45f
+      internalID: -983441290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_84
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 483
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6420ee10f3e179f4aa499c593e3024b3
+      internalID: 1262489736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_85
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 478
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cdca5578413da4790bd645c9988f17
+      internalID: 1529645248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_86
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 478
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b7c60133449104eb72a01f9b2c6222
+      internalID: -1382499955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_87
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 477
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1e00ea6137aa848bd5b2791a8eb397
+      internalID: -822207494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_88
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 477
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6718db4efbf9968438891d6cf9712178
+      internalID: -413960343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_89
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 448
+        width: 58
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9491f7c0dd68e2f49a4c8949c782fe2f
+      internalID: -1378507503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_90
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 466
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d91caf49cfc5d4c809466590b3eaf9
+      internalID: -153979780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_91
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 467
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b0740ff7ac7f3488bf1ca2ed1d6d5c
+      internalID: -450152362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_92
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 463
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901021f971ee4634e913062ef7a5060f
+      internalID: -1769217301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_93
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 400
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1061052ee2723b743817cc428c82d133
+      internalID: 1100309180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_94
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 399
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5e46ff7e227f34ba87df9acfc035ac
+      internalID: -701329391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_95
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 396
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7f8ee31f00df3409fe13055f83d51e
+      internalID: 1275033254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_96
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 423
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b430f3844678054d8bacd4bda26d60c
+      internalID: 419493696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_97
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 429
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6349b4557b0408942b0ccff126a03aa8
+      internalID: 1718094969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_98
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 427
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93949477f56bcd546b6f35010eb15484
+      internalID: 717792404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_99
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 427
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887d11d19b2b8184f8087de0a279352e
+      internalID: -1171239744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_100
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 384
+        width: 21
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0636ba08dbee74fae371326bc2188c
+      internalID: -2074388293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_101
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 401
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecaf26be8b612145b1ae3033744bf20
+      internalID: 871581786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_102
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 405
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f665707ea0ee146ae7883e43429a56
+      internalID: 300232036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_103
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 418
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de759a315a09004883b87193c1cacae
+      internalID: 993568753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_104
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 411
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07d8474fe407c94485910f311fa318c
+      internalID: -573988731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_105
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 413
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9769bc2e16b609246a488b696755d663
+      internalID: 1914195292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_106
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 401
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53c6e2a938843a4585c58d791491288
+      internalID: 1913682363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_107
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 402
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48893a4202e1e1499bb0a30ad13174e
+      internalID: -1838090231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_108
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 399
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462321b6535368443a1951f6bc692bce
+      internalID: -97005315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_109
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 384
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d3a1e6065f7f947867469e2c7d8772
+      internalID: -581803989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_110
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 387
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413b35a23164e39469c8f8a76af2d475
+      internalID: -1172693441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_111
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 384
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6df6a488e01e04abdb154b8a294fde
+      internalID: -1626697064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_112
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 384
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534862e3a708c0a4087241fa23709386
+      internalID: -1705384655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_113
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 334
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099cd8d505308dd449fe1d4ebbf98610
+      internalID: 1767786047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_114
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 328
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929e8c89418570447a3ed624fa7582b4
+      internalID: -430181107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_115
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 364
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c4069e0935376438587ea8cd7b24fd
+      internalID: -2105867846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_116
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 338
+        width: 5
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901237670f571c74fb14ee049b49feeb
+      internalID: 1314457311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_117
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 339
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f936a59c360a09646abc0adfab784f7c
+      internalID: 1127026980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_118
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 320
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41321e4e59bcd8408f81ca1138f7a3d
+      internalID: 564613118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_119
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 320
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f359700dbe88104f8ae09558106de07
+      internalID: 1167295642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_120
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 320
+        width: 9
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40f9b1be96ae4a488263dcd4faef4c5
+      internalID: -1982743607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_121
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 336
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb2a62a54eb83445a47a8f0c499c59a
+      internalID: -570509801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_122
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 339
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c2aeabf09be3c48a7ec3fcf8efc9c7
+      internalID: 1135511247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_123
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 334
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a474c63ef28111f4cb0664f2a8403365
+      internalID: 368817851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_124
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 320
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5aa686a23400941bbafd03859bec3b
+      internalID: 880752136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_125
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 299
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a51a278ecefbae468a4f93ec54de08d
+      internalID: -178129667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_126
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 300
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76b4db559b3f804baf33addac85b399
+      internalID: 581406170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_127
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 307
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02e9f44ae8382f479567bd447a74d9d
+      internalID: -2104109238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_128
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 268
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36eae811ca0a5fb42982396864394027
+      internalID: 1450636511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_129
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 284
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee053c9ac5f4f84d927f7c978d8962e
+      internalID: 1528984501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_130
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 267
+        width: 4
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d3773220b00b74fa8941c8a82beade
+      internalID: 1372388928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_131
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 300
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559f341b73b9fc4409fac5cfdc0e9ea0
+      internalID: -265632533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_132
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 256
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e4a7e05fd8e8f4bb05d7f2ca776f21
+      internalID: -877756602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_133
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 256
+        width: 7
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5690494d868fc4382da4880b811fb4
+      internalID: -1840296457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_134
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 291
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71cd470074df614285a9b7a8d859615
+      internalID: 291380693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_135
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 285
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df093f4571ae634cb752fc881f15f56
+      internalID: 207973756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_136
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 292
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a01e831803cdd24fa9331f6c8771b49
+      internalID: 1857929620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_137
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 270
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a520f0f771e0e4cac1558a486e375c
+      internalID: 1801988174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_138
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 256
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4d135b2f1c32d46b14d78fdae6b472
+      internalID: -1821031371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_139
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 283
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f191e82354ddf4d98b2009596b8089
+      internalID: 724820475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_140
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 286
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8d6f603f507cf4c9b6e84cb40123f8
+      internalID: 1611506194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_141
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 283
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb8789a9215fcc4b905ca0ec00f53b5
+      internalID: 116122628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_142
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 285
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5134cb4d6245304da6b01d9b98cfc22
+      internalID: -1457403903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_143
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 274
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc05e1dfca29404ab7f0b653a4724ae
+      internalID: -837846921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_144
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 271
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01578133fa7cba4388df15b00d94011
+      internalID: -1945986851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_145
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 271
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efc29a42384fa44ebf1ddda51caad18
+      internalID: 1197286428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_146
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 262
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f9c5ea3e380a542b6c78e5551e65b2
+      internalID: -1537588507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_147
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 268
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7b0b04dcb1d184f84d0ad54c08b3c8
+      internalID: -1259205240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_148
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 229
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6838c37dcd26a4d9dce5e58b29f820
+      internalID: 1214518029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_149
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 211
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32ea2fbc157ed24db6d1e12cb8bc7c2
+      internalID: 668944019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_150
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 223
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c546c51353d966843a85e2b1e02b283f
+      internalID: -190034272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_151
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 207
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf23c4bff19648747976bb4fab05e9ae
+      internalID: 475495921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_152
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 207
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b51416e13bf7a489e41587f6c2e2ec
+      internalID: 586569602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_153
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 230
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728c4a7276b0ce84d9f240f3e3312a6e
+      internalID: -444599933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_154
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 194
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3091a964e61aa184f8d5b02f19a4112d
+      internalID: 854677859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_155
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 242
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d87d2173a64df44fb1ed619a46b1190
+      internalID: -1851400817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_156
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 204
+        width: 9
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76081e81fdf5b434d9bd68c91e7044ce
+      internalID: -2125147244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_157
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 204
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89bd437be2ff9a4da6ffe84ef953ebf
+      internalID: -7569381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_158
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 192
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab24539cb93eed438737a34f593eed0
+      internalID: 1846676790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_159
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 256
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8066b339c6ac5b841a3462b599d1d435
+      internalID: -695908984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_160
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 192
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67dd38d2c98c5b44a9e2de88f166c79
+      internalID: -1165701556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_161
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 193
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3271af6aa63cc2498c0371e8b351a21
+      internalID: 1444631813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_162
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 131
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6cbbcb44280c14fa8e1ddae3f8b54e
+      internalID: -1744307228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_163
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 137
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b818cf34f07064797dd4121c04cb83
+      internalID: -1598661134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_164
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 128
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16e290c58f2fb843997966f7d2f1bf2
+      internalID: -1924701862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_165
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 91
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b1fe2e98a32a2448b2fc998159c477
+      internalID: 1018909842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 01_magicanimations_166
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 0
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c35e2aa59a53a41a2354c0800a552b
+      internalID: 486338175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      01_magicanimations_78: -1087257312
+<<<<<<< HEAD
+      01_magicanimations_30: 1808675204
+=======
+>>>>>>> e60eec3f20207d77731f4e5d7f91c7b148b161d2
+      01_magicanimations_107: -1838090231
+      01_magicanimations_8: -1679237344
+      01_magicanimations_137: 1801988174
+      01_magicanimations_48: -1065000086
+      01_magicanimations_24: 568730812
+      01_magicanimations_145: 1197286428
+      01_magicanimations_19: -1714697696
+      01_magicanimations_59: 1942787907
+      01_magicanimations_117: 1127026980
+      01_magicanimations_15: 261938947
+      01_magicanimations_106: 1913682363
+      01_magicanimations_69: -811405973
+      01_magicanimations_124: 880752136
+      01_magicanimations_144: -1945986851
+      01_magicanimations_91: -450152362
+      01_magicanimations_140: 1611506194
+      01_magicanimations_126: 581406170
+      01_magicanimations_9: 664028374
+      01_magicanimations_89: -1378507503
+      01_magicanimations_54: 40281935
+      01_magicanimations_70: -837978713
+      01_magicanimations_86: -1382499955
+      01_magicanimations_97: 1718094969
+      01_magicanimations_36: -828835536
+      01_magicanimations_0: -1922403007
+      01_magicanimations_133: -1840296457
+      01_magicanimations_111: -1626697064
+      01_magicanimations_121: -570509801
+      01_magicanimations_84: 1262489736
+      01_magicanimations_147: -1259205240
+      01_magicanimations_10: 581322666
+      01_magicanimations_151: 475495921
+      01_magicanimations_46: -1971287473
+      01_magicanimations_38: -770310114
+      01_magicanimations_110: -1172693441
+      01_magicanimations_38: -770310114
+      01_magicanimations_27: 1283919505
+      01_magicanimations_64: 944000986
+      01_magicanimations_1: -547847917
+      01_magicanimations_58: 717989477
+      01_magicanimations_141: 116122628
+      01_magicanimations_77: 440658298
+      01_magicanimations_92: -1769217301
+      01_magicanimations_42: 686186441
+      01_magicanimations_103: 993568753
+      01_magicanimations_20: 683778535
+      01_magicanimations_83: -983441290
+      01_magicanimations_74: 61073698
+      01_magicanimations_44: -1729592267
+      01_magicanimations_35: 1426952174
+      01_magicanimations_85: 1529645248
+      01_magicanimations_125: -178129667
+      01_magicanimations_115: -2105867846
+      01_magicanimations_101: 871581786
+      01_magicanimations_41: 309367732
+      01_magicanimations_136: 1857929620
+      01_magicanimations_17: 288995786
+      01_magicanimations_131: -265632533
+      01_magicanimations_3: 2036345861
+      01_magicanimations_129: 1528984501
+      01_magicanimations_31: -1812342187
+      01_magicanimations_81: -376623712
+      01_magicanimations_112: -1705384655
+      01_magicanimations_63: 1121626061
+      01_magicanimations_113: 1767786047
+      01_magicanimations_79: -573539383
+      01_magicanimations_99: -1171239744
+      01_magicanimations_53: 754239841
+<<<<<<< HEAD
+      01_magicanimations_90: -153979780
+      01_magicanimations_7: -1361788511
+      01_magicanimations_4: 831392490
+      01_magicanimations_160: -1165701556
+      01_magicanimations_23: 1023861102
+      01_magicanimations_68: -1793243661
+      01_magicanimations_14: -391260217
+      01_magicanimations_21: -1204701545
+      01_magicanimations_93: 1100309180
+      01_magicanimations_62: -2116482693
+=======
+      01_magicanimations_4: 831392490
+      01_magicanimations_7: -1361788511
+      01_magicanimations_68: -1793243661
+      01_magicanimations_93: 1100309180
+      01_magicanimations_14: -391260217
+>>>>>>> e60eec3f20207d77731f4e5d7f91c7b148b161d2
+      01_magicanimations_87: -822207494
+      01_magicanimations_90: -153979780
+      01_magicanimations_21: -1204701545
+      01_magicanimations_160: -1165701556
+      01_magicanimations_62: -2116482693
+      01_magicanimations_23: 1023861102
+      01_magicanimations_16: -487518002
+      01_magicanimations_11: 1177612226
+      01_magicanimations_52: -1455606472
+      01_magicanimations_94: -701329391
+      01_magicanimations_71: -86600241
+      01_magicanimations_105: 1914195292
+      01_magicanimations_159: -695908984
+      01_magicanimations_57: -48134062
+      01_magicanimations_75: -1776984530
+      01_magicanimations_162: -1744307228
+      01_magicanimations_138: -1821031371
+      01_magicanimations_80: -837494019
+      01_magicanimations_13: -1579923219
+      01_magicanimations_33: -1583851769
+      01_magicanimations_82: -1647677794
+      01_magicanimations_65: -1084792401
+      01_magicanimations_143: -837846921
+      01_magicanimations_22: -1432407136
+      01_magicanimations_61: -1032924718
+      01_magicanimations_135: 207973756
+      01_magicanimations_149: 668944019
+      01_magicanimations_155: -1851400817
+      01_magicanimations_158: 1846676790
+      01_magicanimations_150: -190034272
+      01_magicanimations_152: 586569602
+      01_magicanimations_50: -1683446044
+      01_magicanimations_5: -1040540162
+      01_magicanimations_114: -430181107
+      01_magicanimations_104: -573988731
+      01_magicanimations_39: -839453293
+      01_magicanimations_12: -1373333279
+      01_magicanimations_96: 419493696
+      01_magicanimations_165: 1018909842
+      01_magicanimations_122: 1135511247
+      01_magicanimations_43: 716749310
+      01_magicanimations_28: -227856838
+      01_magicanimations_76: 1476671095
+      01_magicanimations_132: -877756602
+      01_magicanimations_166: 486338175
+      01_magicanimations_47: 1994581609
+      01_magicanimations_18: -202587401
+      01_magicanimations_45: 835080088
+      01_magicanimations_127: -2104109238
+      01_magicanimations_34: 414285835
+      01_magicanimations_120: -1982743607
+      01_magicanimations_108: -97005315
+      01_magicanimations_156: -2125147244
+      01_magicanimations_72: -1807027286
+      01_magicanimations_6: 1743644492
+      01_magicanimations_32: -356084465
+      01_magicanimations_40: -1169225332
+      01_magicanimations_123: 368817851
+      01_magicanimations_134: 291380693
+      01_magicanimations_51: 2002632274
+      01_magicanimations_67: -1544110437
+      01_magicanimations_146: -1537588507
+      01_magicanimations_130: 1372388928
+      01_magicanimations_98: 717792404
+      01_magicanimations_37: 1699500045
+      01_magicanimations_95: 1275033254
+      01_magicanimations_118: 564613118
+      01_magicanimations_49: 526575111
+      01_magicanimations_55: 711129161
+      01_magicanimations_26: 631009270
+      01_magicanimations_100: -2074388293
+      01_magicanimations_148: 1214518029
+      01_magicanimations_153: -444599933
+      01_magicanimations_2: 334566141
+      01_magicanimations_73: 1404789677
+      01_magicanimations_56: -1234652975
+      01_magicanimations_142: -1457403903
+      01_magicanimations_157: -7569381
+      01_magicanimations_128: 1450636511
+      01_magicanimations_60: 597243157
+      01_magicanimations_102: 300232036
+      01_magicanimations_163: -1598661134
+      01_magicanimations_119: 1167295642
+      01_magicanimations_88: -413960343
+      01_magicanimations_139: 724820475
+      01_magicanimations_66: 1095443946
+      01_magicanimations_161: 1444631813
+      01_magicanimations_25: 1128526870
+      01_magicanimations_116: 1314457311
+      01_magicanimations_164: -1924701862
+<<<<<<< HEAD
+      01_magicanimations_154: 854677859
+      01_magicanimations_31: -1812342187
+      01_magicanimations_29: -1454480924
+=======
+      01_magicanimations_29: -1454480924
+      01_magicanimations_154: 854677859
+      01_magicanimations_30: 1808675204
+>>>>>>> e60eec3f20207d77731f4e5d7f91c7b148b161d2
+      01_magicanimations_109: -581803989
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
