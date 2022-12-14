@@ -17,6 +17,8 @@ public class Harpy : MonoBehaviour
     private TextMeshProUGUI enemyName;
     [SerializeField]
     private Image HpBar;
+    [SerializeField]
+    private Material Glitch;
 	private int animation;
     private int attacks;
 	private float startTime; 
@@ -24,6 +26,7 @@ public class Harpy : MonoBehaviour
 	private AnimationClip[] clips;
     private bool canBeHit = true;
 	public bool canAttack = true;
+    public bool won = false;
     public float EnemyHp;
     private float hp;
     // Start is called before the first frame update
@@ -40,7 +43,7 @@ public class Harpy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time-startTime>timeToAttack && canAttack==true) {
+        if (Time.time-startTime>timeToAttack && canAttack==true && won==false) {
         	canAttack=false;
         	Attack(Random.Range(0,2),Random.Range(0,2)*2-1);
         }
@@ -111,13 +114,13 @@ public class Harpy : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Hit" && canBeHit==true) {
+        if (other.tag == "Hit" || other.tag=="Damage" && canBeHit==true) {
             canBeHit=false;
             hp=hp-1f;
             float porcentaje = hp / EnemyHp;
             HpBar.GetComponent<RectTransform>().sizeDelta = new Vector2(sizeX*porcentaje,HpBar.GetComponent<RectTransform>().sizeDelta.y);
             if (hp<=0) {
-                //win();
+                win();
                 hp=0;
             }
             else
@@ -128,5 +131,12 @@ public class Harpy : MonoBehaviour
     public IEnumerator coolDown(System.Action<bool> callback, float time) {
         yield return new WaitForSeconds(time);
         if (callback != null) callback(true);
+    }
+
+    public void win() {
+        won=true;
+        transform.GetChild(0).gameObject.SetActive(true);
+        gameObject.GetComponent<Renderer>().material = Glitch;
+        anim.SetInteger("State",8);
     }
 }

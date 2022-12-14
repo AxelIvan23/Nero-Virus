@@ -80,7 +80,7 @@ public class PlayerMov : MonoBehaviour
             } else 
                 anim.SetInteger("State",0);
         }
-        if (Input.GetKeyDown(KeyCode.C) && puedeHacerDash) {
+        if (Input.GetKeyDown(KeyCode.C) && puedeHacerDash && sepuedeMover) {
             StartCoroutine(Dash());
         }
     }
@@ -98,12 +98,14 @@ public class PlayerMov : MonoBehaviour
         if (col.gameObject.CompareTag("Ground")) {
             canJump=true;
             anim.SetInteger("State",3);
+            sepuedeMover = true;
         }
     }
 
     private void OnCollisionStay2D(Collision2D col) {
         if (col.gameObject.CompareTag("Ground")) {
             canJump=true;
+            sepuedeMover = true;
         }
     }
 
@@ -120,12 +122,15 @@ public class PlayerMov : MonoBehaviour
             canBeHit=false;
         	data.data.HP=data.data.HP-0.5f;
             if (data.data.HP<=0)
-                gameOver();
+                StartCoroutine(gameOver());
             else
                 StartCoroutine(coolDown((result)=>{canBeHit=result;},1.5f));
         }
         if (other.tag == "Message") {
             other.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+        }
+        if (other.tag == "Portal") {
+            SceneManager.LoadScene("Boss Harpy");
         }
     }
     void OnTriggerStay2D(Collider2D other) {
@@ -159,7 +164,6 @@ public class PlayerMov : MonoBehaviour
             
             yield return new WaitForSeconds(tiempoDash);
 
-            sepuedeMover = true;
             puedeHacerDash = true;
             rb.gravityScale = gravedadinicial;
         }
@@ -170,9 +174,10 @@ public class PlayerMov : MonoBehaviour
         if (callback != null) callback(true);
     }
 
-    private void gameOver() {
+    private IEnumerator gameOver() {
         gameObject.GetComponent<Renderer>().material = glitch;
         anim.SetInteger("State",5);
+        yield return new WaitForSeconds(0.3f);
         anim.SetBool("gameEnd",true);
         gameEnd.SetActive(true);
     }

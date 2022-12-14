@@ -11,6 +11,8 @@ public class ManagerData : ScriptableObject
     	public float HP; 
     	public int dialogNum;
     	public int mode;
+    	public string lastScene;
+    	public Vector3 lastPos;
     }
     [SerializeField]
     public Data data;

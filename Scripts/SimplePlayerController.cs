@@ -21,6 +21,7 @@ using UnityEngine.SceneManagement;
         private Transform controladorDisparo;
         [SerializeField] 
         private GameObject bola;
+        [SerializeField] private GameObject mode1Container;
 
         [SerializeField] private float velocidadDash;
         [SerializeField] private float tiempoDash;
@@ -46,7 +47,7 @@ using UnityEngine.SceneManagement;
                 Attack();
                 Jump();
                 Run();
-                if (Input.GetKeyDown(KeyCode.C) && puedeHacerDash)
+                if (Input.GetKeyDown(KeyCode.C) && puedeHacerDash && sepuedeMover)
                 {
                     StartCoroutine(Dash());
                 }
@@ -62,6 +63,9 @@ using UnityEngine.SceneManagement;
             }
             if (other.tag == "Message" || other.tag == "Terminal") {
                 other.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            }
+            if (other.tag == "Portal") {
+                SceneManager.LoadScene("Boss Harpy");
             }
         }
         void OnTriggerStay2D(Collider2D other) {
@@ -82,6 +86,11 @@ using UnityEngine.SceneManagement;
                 other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             }
         }
+        private void OnCollisionStay2D(Collision2D col) {
+            if (col.gameObject.CompareTag("Ground")) {
+                sepuedeMover = true;
+            }
+        }
 
         private IEnumerator Dash() {
             sepuedeMover = false;
@@ -95,7 +104,6 @@ using UnityEngine.SceneManagement;
             
             yield return new WaitForSeconds(tiempoDash);
 
-            sepuedeMover = true;
             puedeHacerDash = true;
             rb.gravityScale = gravedadinicial;
         }
@@ -153,7 +161,10 @@ using UnityEngine.SceneManagement;
             if (Input.GetKeyDown(KeyCode.X))
             {
                 anim.SetTrigger("attack");
-                Instantiate(bola, controladorDisparo.position, controladorDisparo.rotation);
+                if (data.data.mode==1)
+                    Instantiate(bola, controladorDisparo.position, controladorDisparo.rotation, mode1Container.transform);
+                else
+                    Instantiate(bola, controladorDisparo.position, controladorDisparo.rotation);
             }
         }
         void Hurt()

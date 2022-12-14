@@ -16,6 +16,8 @@ MonoBehaviour:
     Player: 1
     MaxHP: 5
     SavedHP: 4
-    HP: 3
+    HP: 2.5
     dialogNum: 0
-    mode: 0
+    mode: 1
+    lastScene: Level1 1
+    lastPos: {x: 0, y: 0, z: 0}
