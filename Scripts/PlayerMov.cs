@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMov : MonoBehaviour
 {
@@ -104,20 +105,27 @@ public class PlayerMov : MonoBehaviour
                 StartCoroutine(coolDown((result)=>{canBeHit=result;},1.5f));
         }
         if (other.tag == "Message") {
-
+            other.gameObject.transform.GetChild(0).gameObject.SetActive(true);
         }
     }
     void OnTriggerStay2D(Collider2D other) {
-        if (other.tag == "Message") {
-            if (Input.GetKeyDown ("e")) {
+        if (Input.GetKey ("e")) {
+            Debug.Log("triggerStay");
+            if (other.tag == "Message") {
+                other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
                 other.gameObject.GetComponent<DialogSystem>().enabled = true;
+                other.gameObject.GetComponent<Cinematic>().enabled = true;
                 other.gameObject.GetComponent<DialogSystem>().StartConversation(0);
+            }
+            if (other.tag == "Terminal") {
+                SceneManager.LoadScene("Level1 1");
             }
         }
     }
     void OnTriggerExit2D(Collider2D other) {
-    	//conversation=0;
-    	//notification.SetActive(false);
+        if (other.tag == "Message" || other.tag == "Terminal") {
+            other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+        }
     }
 
     public IEnumerator coolDown(System.Action<bool> callback, float time) {

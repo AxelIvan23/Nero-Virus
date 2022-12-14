@@ -910,7 +910,7 @@ MonoBehaviour:
   characters: []
   disponibles: 
   marco: {fileID: 0}
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: 30bf4a4d8dc5b1e4e98400832bff8391, type: 2}
   mode: 0
 --- !u!4 &888094185
 Transform:

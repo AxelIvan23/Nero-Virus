@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94a74d620dcfe034494ad36d19ab691f, type: 3}
-  m_Name: HowToAttack
+  m_Name: HowToDodge
   m_EditorClassIdentifier: 
   messages:
-  - message: "Ves esas cajas de ah\xED? puedes utilizar tu habilidad para destruirlas
-      usando la tecla x"
+  - message: Mira, un slime, el virus mas debil que existe, te intentara atacar cuando
+      te vea, vamos apuesto a la victoria
     name: Dronny
     sound: {fileID: 0}
     decision: []
-  - message: "Tambien podr\xEDas intentar saltar sobre ellas apretando la barra espaciadora"
-    name: Dronny
-    sound: {fileID: 0}
-    decision: []
-  - message: "De que hablas, cu\xE1les teclas? esto no es un videojuego"
+  - message: Gracias, acabare con el!
     name: "T\xFA"
     sound: {fileID: 0}
     decision: []
-  - message: ...
+  - message: Le apostaba al slime
     name: Dronny
+    sound: {fileID: 0}
+    decision: []
+  - message: ._.
+    name: "T\xFA"
     sound: {fileID: 0}
     decision: []

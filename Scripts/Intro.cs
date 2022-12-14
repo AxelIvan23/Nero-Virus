@@ -28,9 +28,12 @@ public class Intro : MonoBehaviour
 
     void EndReached(UnityEngine.Video.VideoPlayer vp) {
         //vp.playbackSpeed = vp.playbackSpeed / 10.0F;
-        videoPlayer.Pause();
-        panel.SetActive(true);
-        band=1;
-        animaciones.animateStart();
+        if (band==0) {
+        	Debug.Log("ENTRE!");
+        	band=1;
+	        videoPlayer.Pause();
+	        panel.SetActive(true);
+	        animaciones.animateStart();
+    	}
     }
 }

@@ -47,10 +47,10 @@ public class DialogSystem : MonoBehaviour
     	decision=1;
     	flag=0;
     	ChatPanel.SetActive(true);
-    	if (data.data.Player==0)
-            Player[0].GetComponent<PlayerMov>().enabled = false;
-        if (data.data.Player==1)
-            Player[1].GetComponent<SimplePlayerController>().enabled = false;
+    	if (data.data.Player==1)
+            Player[1].GetComponent<PlayerMov>().enabled = false;
+        if (data.data.Player==0)
+            Player[0].GetComponent<SimplePlayerController>().enabled = false;
     	ConversationNum = ConverNum;
     	Dialog(Num);
     }
@@ -66,13 +66,15 @@ public class DialogSystem : MonoBehaviour
     public void EndConversation() {
         ChatPanel.SetActive(false);
         LifePanel.SetActive(true);
-        if (data.data.Player==0)
-    	    Player[0].GetComponent<PlayerMov>().enabled = true;
         if (data.data.Player==1)
-            Player[1].GetComponent<SimplePlayerController>().enabled = true;
-    	gameObject.GetComponent<DialogSystem>().enabled = false;
-        for (int i=0; i<enableObjects.Length; i++) {
-            enableObjects[i].SetActive(true);
+    	    Player[1].GetComponent<PlayerMov>().enabled = true;
+        if (data.data.Player==0)
+            Player[0].GetComponent<SimplePlayerController>().enabled = true;
+        if (enableObjects.Length>0) {
+            for (int i=0; i<enableObjects.Length; i++) {
+                enableObjects[i].SetActive(true);
+            }
         }
+        gameObject.GetComponent<DialogSystem>().enabled = false;
     } 
 }

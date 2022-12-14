@@ -18,10 +18,7 @@ public class AnimacionesUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LeanTween.alpha(btnjuego.GetComponent<RectTransform>(), 0f, 0f);
-        LeanTween.alpha(btnopciones.GetComponent<RectTransform>(), 0f, 0f);
-        LeanTween.alpha(btnsalir.GetComponent<RectTransform>(), 0f, 0f);
-        LeanTween.alpha(fondo.GetComponent<RectTransform>(), 0f, 0f);
+        
     }
 
     private void muestrabotones()
@@ -54,6 +51,10 @@ public class AnimacionesUI : MonoBehaviour
     }
 
     public void animateStart() {
+        LeanTween.alpha(btnjuego.GetComponent<RectTransform>(), 0f, 0f);
+        LeanTween.alpha(btnopciones.GetComponent<RectTransform>(), 0f, 0f);
+        LeanTween.alpha(btnsalir.GetComponent<RectTransform>(), 0f, 0f);
+        LeanTween.alpha(fondo.GetComponent<RectTransform>(), 0f, 0f);
         LeanTween.moveX(logo.GetComponent<RectTransform>(), 480, 10f).setEase(LeanTweenType.easeInOutQuart)
             .setOnComplete(muestrabotones);
     }

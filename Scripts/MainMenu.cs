@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        data.data.Player=0;
     }
 
     // Update is called once per frame
@@ -63,7 +63,7 @@ public class MainMenu : MonoBehaviour
 	        if (num==4)
 	        	marco.anchoredPosition = new Vector2(470f,-194f);
 
-	        data.data.Player=num;
+	        data.data.Player=num-1;
 
 	        for (int i=0;i<characters.Length;i++) {
 	        	if (i==num-1)

@@ -73,6 +73,10 @@ public class SystemController : MonoBehaviour
         }
     }
 
+    void Awake() {
+        data.data.dialogNum=0;
+    }
+
     // Update is called once per frame
     void Update()
     {

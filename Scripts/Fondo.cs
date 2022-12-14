@@ -11,18 +11,25 @@ public class Fondo : MonoBehaviour
 
     private Material material;
 
-    [SerializeField] private GameObject jugadorrb;
-    private Rigidbody2D jugador;
+    [SerializeField]
+    private GameObject[] Characters;
+    [SerializeField]
+    private ManagerData data;
+    int num=0;
+    private Vector3 actualPos;
+    private Vector3 diffPos; 
 
     private void Awake()
     {
         material = GetComponent<SpriteRenderer>().material;
-        jugador = jugadorrb.GetComponent<Rigidbody2D>();
+        num = data.data.Player;
     }
 
     // Update is called once per frame
     void Update()
     {
+    	actualPos = actualPos - Characters[num].transform.position;
+    	Debug.Log(Vector3.Normalize(actualPos));
         offset = velocidadMovimiento * Time.deltaTime;
         material.mainTextureOffset += offset;
     }

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
     public class SimplePlayerController : MonoBehaviour
     {
@@ -15,7 +16,10 @@
         private ManagerData data;
         [SerializeField]
         private GameObject gameEnd;
-
+        [SerializeField] 
+        private Transform controladorDisparo;
+        [SerializeField] 
+        private GameObject bola;
 
         // Start is called before the first frame update
         void Start()
@@ -45,9 +49,29 @@
                 if (data.data.HP<=0)
                     Die();
             }
+            if (other.tag == "Message" || other.tag == "Terminal") {
+                other.gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            }
         }
-
-
+        void OnTriggerStay2D(Collider2D other) {
+            if (Input.GetKey ("e")) {
+                Debug.Log("triggerStay");
+                if (other.tag == "Message") {
+                    other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+                    other.gameObject.GetComponent<DialogSystem>().enabled = true;
+                    other.gameObject.GetComponent<Cinematic>().enabled = true;
+                    other.gameObject.GetComponent<DialogSystem>().StartConversation(0);
+                }
+                if (other.tag == "Terminal") {
+                    SceneManager.LoadScene("Level1 1");
+                }
+            }
+        }
+        void OnTriggerExit2D(Collider2D other) {
+            if (other.tag == "Message" || other.tag == "Terminal") {
+                other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+            }
+        }
 
         void Run()
         {
@@ -59,7 +83,7 @@
             {
                 direction = -1;
                 moveVelocity = Vector3.left;
-
+                transform.rotation = Quaternion.Euler(0,180,0);
                 //transform.localScale = new Vector3(direction, 1, 1);
                 if (!anim.GetBool("isJump"))
                     anim.SetBool("isRun", true);
@@ -69,7 +93,7 @@
             {
                 direction = 1;
                 moveVelocity = Vector3.right;
-
+                transform.rotation = Quaternion.Euler(0,0,0);
                 //transform.localScale = new Vector3(direction, 1, 1);
                 if (!anim.GetBool("isJump"))
                     anim.SetBool("isRun", true);
@@ -102,6 +126,7 @@
             if (Input.GetKeyDown(KeyCode.X))
             {
                 anim.SetTrigger("attack");
+                Instantiate(bola, controladorDisparo.position, controladorDisparo.rotation);
             }
         }
         void Hurt()
