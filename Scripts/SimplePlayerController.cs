@@ -18,6 +18,8 @@ using UnityEngine.SceneManagement;
         [SerializeField]
         private GameObject gameEnd;
         [SerializeField] 
+        private GameObject gameWon;
+        [SerializeField] 
         private Transform controladorDisparo;
         [SerializeField] 
         private GameObject bola;
@@ -66,6 +68,10 @@ using UnityEngine.SceneManagement;
             }
             if (other.tag == "Portal") {
                 SceneManager.LoadScene("Boss Harpy");
+            }
+            if (other.tag == "card") {
+                gameWon.SetActive(true);
+                Destroy(this);
             }
         }
         void OnTriggerStay2D(Collider2D other) {

@@ -27,6 +27,8 @@ public class PlayerMov : MonoBehaviour
     private ManagerData data;
     [SerializeField]
     private GameObject gameEnd;
+    [SerializeField] 
+    private GameObject gameWon;
 
     [SerializeField] private float velocidadDash;
     [SerializeField] private float tiempoDash;
@@ -131,6 +133,10 @@ public class PlayerMov : MonoBehaviour
         }
         if (other.tag == "Portal") {
             SceneManager.LoadScene("Boss Harpy");
+        }
+        if (other.tag == "card") {
+            gameWon.SetActive(true);
+            Destroy(this);
         }
     }
     void OnTriggerStay2D(Collider2D other) {

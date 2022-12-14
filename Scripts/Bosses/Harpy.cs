@@ -139,4 +139,9 @@ public class Harpy : MonoBehaviour
         gameObject.GetComponent<Renderer>().material = Glitch;
         anim.SetInteger("State",8);
     }
+
+    public void CardDrop() {
+        transform.GetChild(1).gameObject.SetActive(true);
+        Destroy(this);
+    }
 }
