@@ -1,6 +1,10 @@
+<<<<<<< HEAD
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+=======
 ﻿using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+>>>>>>> 036133513919e65591e0f295b3d080f3d74db5cf
 
     public class SimplePlayerController : MonoBehaviour
     {
@@ -17,19 +21,23 @@ using UnityEngine.SceneManagement;
         private ManagerData data;
         [SerializeField]
         private GameObject gameEnd;
+<<<<<<< HEAD
         [SerializeField] 
         private Transform controladorDisparo;
         [SerializeField] 
         private GameObject bola;
+=======
 
         [SerializeField] private float velocidadDash;
         [SerializeField] private float tiempoDash;
         private float gravedadinicial;
         private bool puedeHacerDash = true;
         private bool sepuedeMover = true;
+>>>>>>> 036133513919e65591e0f295b3d080f3d74db5cf
 
-        // Start is called before the first frame update
-        void Start()
+
+    // Start is called before the first frame update
+    void Start()
         {
             rb = GetComponent<Rigidbody2D>();
             anim = GetComponent<Animator>();
@@ -50,6 +58,7 @@ using UnityEngine.SceneManagement;
                 {
                     StartCoroutine(Dash());
                 }
+
             }
         }
         private void OnTriggerEnter2D(Collider2D other) {
@@ -66,6 +75,7 @@ using UnityEngine.SceneManagement;
         }
         void OnTriggerStay2D(Collider2D other) {
             if (Input.GetKey ("e")) {
+                Debug.Log("triggerStay");
                 if (other.tag == "Message") {
                     other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
                     other.gameObject.GetComponent<DialogSystem>().enabled = true;
@@ -82,23 +92,25 @@ using UnityEngine.SceneManagement;
                 other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
             }
         }
+<<<<<<< HEAD
+=======
 
-        private IEnumerator Dash() {
+        private IEnumerator Dash()
+        {
             sepuedeMover = false;
             puedeHacerDash = false;
             rb.gravityScale = 0;
 
-            if (Input.GetAxisRaw("Horizontal") < 0)
-                rb.velocity = new Vector2(-velocidadDash, 0);
-            if (Input.GetAxisRaw("Horizontal") > 0)
-                rb.velocity = new Vector2(velocidadDash, 0);
+            rb.velocity = new Vector2(velocidadDash, 0);
             
             yield return new WaitForSeconds(tiempoDash);
 
             sepuedeMover = true;
             puedeHacerDash = true;
             rb.gravityScale = gravedadinicial;
+            
         }
+>>>>>>> 036133513919e65591e0f295b3d080f3d74db5cf
 
         void Run()
         {

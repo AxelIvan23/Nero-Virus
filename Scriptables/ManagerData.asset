@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: ManagerData
   m_EditorClassIdentifier: 
   data:
-    Player: 0
+    Player: 1
     MaxHP: 5
     SavedHP: 4
-    HP: 2.5
+    HP: 3
     dialogNum: 0
     mode: 0

@@ -27,13 +27,22 @@ public class PlayerMov : MonoBehaviour
     private ManagerData data;
     [SerializeField]
     private GameObject gameEnd;
+
+    [SerializeField] private float velocidadDash;
+    [SerializeField] private float tiempoDash;
+    private float gravedadinicial;
+    private bool puedeHacerDash = true;
+    private bool sepuedeMover = true;
+    private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
         body = gameObject.GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         gameObject.GetComponent<Renderer>().material = normal;
+        gravedadinicial = rb.gravityScale;
         if (data.data.mode==1) 
             anim.SetInteger("State",1);
     }
@@ -62,12 +71,17 @@ public class PlayerMov : MonoBehaviour
         if (data.data.mode==0) {
             if (Input.GetAxis("Horizontal")>0) {
                 spriteRenderer.flipX = false;
+                transform.GetChild(0).rotation= Quaternion.Euler(0,0,0);
                 anim.SetInteger("State",1);
             } else if (Input.GetAxis("Horizontal")<0) {
                 spriteRenderer.flipX = true;
+                transform.GetChild(0).rotation= Quaternion.Euler(0,180,0);
                 anim.SetInteger("State",1);
             } else 
                 anim.SetInteger("State",0);
+        }
+        if (Input.GetKeyDown(KeyCode.C) && puedeHacerDash) {
+            StartCoroutine(Dash());
         }
     }
 
@@ -84,6 +98,12 @@ public class PlayerMov : MonoBehaviour
         if (col.gameObject.CompareTag("Ground")) {
             canJump=true;
             anim.SetInteger("State",3);
+        }
+    }
+
+    private void OnCollisionStay2D(Collision2D col) {
+        if (col.gameObject.CompareTag("Ground")) {
+            canJump=true;
         }
     }
 
@@ -110,7 +130,6 @@ public class PlayerMov : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D other) {
         if (Input.GetKey ("e")) {
-            Debug.Log("triggerStay");
             if (other.tag == "Message") {
                 other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
                 other.gameObject.GetComponent<DialogSystem>().enabled = true;
@@ -127,6 +146,24 @@ public class PlayerMov : MonoBehaviour
             other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
         }
     }
+
+    private IEnumerator Dash() {
+            sepuedeMover = false;
+            puedeHacerDash = false;
+            rb.gravityScale = 0;
+
+            if (Input.GetAxisRaw("Horizontal") < 0)
+                rb.velocity = new Vector2(-velocidadDash, 0);
+            if (Input.GetAxisRaw("Horizontal") > 0)
+                rb.velocity = new Vector2(velocidadDash, 0);
+            
+            yield return new WaitForSeconds(tiempoDash);
+
+            sepuedeMover = true;
+            puedeHacerDash = true;
+            rb.gravityScale = gravedadinicial;
+        }
+
 
     public IEnumerator coolDown(System.Action<bool> callback, float time) {
         yield return new WaitForSeconds(time);

@@ -22,7 +22,7 @@ public class Enemigo : MonoBehaviour
         Destroy(gameObject);
     }
     void OnTriggerEnter2D(Collider2D other) {
-        if (other.tag == "Hit") {
+        if (other.tag == "Hit" || other.tag == "Damage") {
             vida=vida-25f;
             
             if(vida <= 0) {

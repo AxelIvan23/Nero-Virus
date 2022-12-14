@@ -5,7 +5,7 @@ using UnityEngine;
 public class cambiofondo : MonoBehaviour
 {
 
-    private void OnTriggerEnter2D(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("caombio");
     }

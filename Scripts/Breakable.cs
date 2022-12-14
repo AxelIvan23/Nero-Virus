@@ -18,7 +18,7 @@ public class Breakable : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        if (other.tag == "Hit") {
+        if (other.tag == "Hit" || other.tag == "Damage") {
             transform.GetChild(0).gameObject.SetActive(true);
             anim.SetInteger("State",1);
         }

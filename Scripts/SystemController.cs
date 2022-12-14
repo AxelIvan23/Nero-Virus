@@ -17,6 +17,8 @@ public class SystemController : MonoBehaviour
     [SerializeField]
     private GameObject[] Characters;
     [SerializeField]
+    private GameObject[] CharactersFollow;
+    [SerializeField]
     private GameObject levelContainer;
     [SerializeField]
     private AudioClip[] audioClipArray;
@@ -60,7 +62,7 @@ public class SystemController : MonoBehaviour
             if (i==data.data.Player) {
                 Characters[i].SetActive(true);
                 Transform follow = transform.GetChild(0);
-                transform.GetChild(0).SetParent(Characters[i].transform);
+                transform.GetChild(0).SetParent(CharactersFollow[i].transform);
                 follow.localPosition = new Vector3(0,0,0);
             }
         }

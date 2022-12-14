@@ -29,8 +29,8 @@ public class Fondo : MonoBehaviour
     void Update()
     {
     	actualPos = actualPos - Characters[num].transform.position;
-    	Debug.Log(Vector3.Normalize(actualPos));
-        offset = velocidadMovimiento * Time.deltaTime;
+        offset = -Vector3.Normalize(actualPos).x * velocidadMovimiento * Time.deltaTime;
         material.mainTextureOffset += offset;
+        actualPos=Characters[num].transform.position;
     }
 }
