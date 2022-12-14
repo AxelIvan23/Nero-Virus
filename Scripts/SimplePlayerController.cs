@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+=======
+﻿using System.Collections;
+using UnityEngine;
+>>>>>>> 036133513919e65591e0f295b3d080f3d74db5cf
 
     public class SimplePlayerController : MonoBehaviour
     {
@@ -16,16 +21,27 @@ using UnityEngine.SceneManagement;
         private ManagerData data;
         [SerializeField]
         private GameObject gameEnd;
+<<<<<<< HEAD
         [SerializeField] 
         private Transform controladorDisparo;
         [SerializeField] 
         private GameObject bola;
+=======
 
-        // Start is called before the first frame update
-        void Start()
+        [SerializeField] private float velocidadDash;
+        [SerializeField] private float tiempoDash;
+        private float gravedadinicial;
+        private bool puedeHacerDash = true;
+        private bool sepuedeMover = true;
+>>>>>>> 036133513919e65591e0f295b3d080f3d74db5cf
+
+
+    // Start is called before the first frame update
+    void Start()
         {
             rb = GetComponent<Rigidbody2D>();
             anim = GetComponent<Animator>();
+            gravedadinicial = rb.gravityScale;
         }
 
         private void Update()
@@ -38,6 +54,10 @@ using UnityEngine.SceneManagement;
                 Attack();
                 Jump();
                 Run();
+                if (Input.GetKeyDown(KeyCode.C) && puedeHacerDash)
+                {
+                    StartCoroutine(Dash());
+                }
 
             }
         }
@@ -49,29 +69,26 @@ using UnityEngine.SceneManagement;
                 if (data.data.HP<=0)
                     Die();
             }
-            if (other.tag == "Message" || other.tag == "Terminal") {
-                other.gameObject.transform.GetChild(0).gameObject.SetActive(true);
-            }
         }
-        void OnTriggerStay2D(Collider2D other) {
-            if (Input.GetKey ("e")) {
-                Debug.Log("triggerStay");
-                if (other.tag == "Message") {
-                    other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
-                    other.gameObject.GetComponent<DialogSystem>().enabled = true;
-                    other.gameObject.GetComponent<Cinematic>().enabled = true;
-                    other.gameObject.GetComponent<DialogSystem>().StartConversation(0);
-                }
-                if (other.tag == "Terminal") {
-                    SceneManager.LoadScene("Level1 1");
-                }
-            }
+<<<<<<< HEAD
+=======
+
+        private IEnumerator Dash()
+        {
+            sepuedeMover = false;
+            puedeHacerDash = false;
+            rb.gravityScale = 0;
+
+            rb.velocity = new Vector2(velocidadDash, 0);
+            
+            yield return new WaitForSeconds(tiempoDash);
+
+            sepuedeMover = true;
+            puedeHacerDash = true;
+            rb.gravityScale = gravedadinicial;
+            
         }
-        void OnTriggerExit2D(Collider2D other) {
-            if (other.tag == "Message" || other.tag == "Terminal") {
-                other.gameObject.transform.GetChild(0).gameObject.SetActive(false);
-            }
-        }
+>>>>>>> 036133513919e65591e0f295b3d080f3d74db5cf
 
         void Run()
         {
